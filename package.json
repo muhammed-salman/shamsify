@@ -1,0 +1,27 @@
+{
+  "name": "shamsify",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/muhammed-salman/shamsify.git"
+  },
+  "author": "Muhammed Salman Shamsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/muhammed-salman/shamsify/issues"
+  },
+  "homepage": "https://gitlab.com/muhammed-salman/shamsify#README",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "browserify": "^14.1.0"
+  }
+}
