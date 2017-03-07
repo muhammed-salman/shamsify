@@ -1,0 +1,58 @@
+<div class="resume">
+	<div class="myphoto_circle--large"></div>
+	<h1>{{rCtrl.resume.basics.name}}</h1>
+	<h4>{{rCtrl.resume.basics.email}} | {{rCtrl.resume.basics.location.city}} | {{rCtrl.resume.basics.location.region}} | {{rCtrl.resume.basics.location.country}}({{rCtrl.resume.basics.location.countryCode}}) </h4>
+	<p class="summary">{{rCtrl.resume.basics.summary}}</p>
+	<h2>Work</h2>
+	<p class="work" ng-repeat-start="work in rCtrl.resume.work | orderBy:'-startDate'">
+		<b>{{work.position}}</b>
+		<div>
+			{{work.company}}	
+		</div>
+		<div ng-repeat-end>{{work.startDate | date:'MMM, yyyy'}} - {{work.endDate | date:'MMM, yyyy'}}</div>
+	</p>
+	<h2>Education</h2>
+	<p class="education" ng-repeat-start="edu in rCtrl.resume.education | orderBy:'-startDate'">
+		<b>{{edu.studyType}} - <em>{{edu.area}}</em></b>
+		<div>
+			{{edu.class}}, {{edu.institution}}	
+		</div>
+		<div ng-repeat-end>{{edu.startDate | date:'yyyy'}} - {{edu.endDate | date:'yyyy'}}</div>
+	</p>
+	<h2>Skills</h2>
+	<div class="skills">
+		<hr/>
+		<h3 class="text-left">Languages &amp; Frameworks</h3>
+		<div class="row">
+			<div class="skill" ng-repeat="skill in rCtrl.resume.skills.languages | orderBy:'-ratings'">
+				<div><b>{{skill.name}}</b></div>
+				<div class="ratings">
+					<span class="glyphicon glyphicon-star filled" ng-repeat="i in rCtrl.getNumber(skill.ratings) track by $index"></span>
+					<span class="glyphicon glyphicon-star" ng-repeat="i in rCtrl.getNumber(10-skill.ratings) track by $index"></span>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<h3 class="text-left">Software &amp; Tools</h3>
+		<div class="row">
+			<div class="skill" ng-repeat="skill in rCtrl.resume.skills.tools | orderBy:'-ratings'">
+				<div><b>{{skill.name}}</b></div>
+				<div class="ratings">
+					<span class="glyphicon glyphicon-star filled" ng-repeat="i in rCtrl.getNumber(skill.ratings) track by $index"></span>
+					<span class="glyphicon glyphicon-star" ng-repeat="i in rCtrl.getNumber(10-skill.ratings) track by $index"></span>
+				</div>
+			</div>
+		</div>	
+		<hr/>
+		<h3 class="text-left">Concepts</h3>
+		<div class="row">
+			<div class="skill" ng-repeat="skill in rCtrl.resume.skills.concepts | orderBy:'-ratings'">
+				<div><b>{{skill.name}}</b></div>
+				<div class="ratings">
+					<span class="glyphicon glyphicon-star filled" ng-repeat="i in rCtrl.getNumber(skill.ratings) track by $index"></span>
+					<span class="glyphicon glyphicon-star" ng-repeat="i in rCtrl.getNumber(10-skill.ratings) track by $index"></span>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>

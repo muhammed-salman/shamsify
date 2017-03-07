@@ -1,0 +1,459 @@
+{
+  "basics": {
+    "email": "talktoshamsi@gmail.com",
+    "name": "Muhammed Salman Shamsi",
+    "currentPost": "Assistant Professor | Freelance Developer",
+    "phone": "Please Mail Me",
+    "summary": "Looking for a developer who can simultaneously work on multiple technologies and build web applications to solve real world problems. Connect with me\n\" Are you overwhelmed with manual paperwork?\" \" Are you fed up filling up redundant information?\"\n\"Did you want to make the world a better place by providing online solutions to real world problems?\"\nI solve all of these.\nI get you exactly what you need to built efficient and aesthetically pleasant web application because I combine\n- M.Tech Level expertise at database system and design patterns. \n- My passion for programming and getting at the **crux** of the problem.\n- 2 years volunteer experience in building web applications. \n- 2.5 years of experience in teaching database and web technologies. \n- Effectively resolve challenging issues. \n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- Skilled at explaining complex concept easily to any novice person.\nIn spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.\nStill not sure and want to get more insight regarding your problem or to know more, drop me a mail and I will be happy to assist you.",
+    "location": {
+      "city": "Thane",
+      "region": "Mumbai MetroPolitan Region(MMR)",
+      "state": "Maharashta",
+      "country": "India",
+      "countryCode": "IN"
+    }
+  },
+  "work": [
+    {
+      "company": "Anjuman-I-Islam's Kalsekar Technical Campus (AIKTC)",
+      "position": "Assistant Professor",
+      "startDate": "2014-07-01",
+      "summary": "I have strong knowledge of Programming and Database. \n\nI had taken courses such as C Programming (SPA),  Web Programming (WTL), Database Management System (DBMS), Database & Information Retrieval System (DBIRS) and Distributed Databases (DD).\n\nDeveloped various web applications for automating the daily administrative and academic task. \n\nDeveloped a surveying web application for the department of civil engineering. \n\nOrganized \"One Week HTML & CSS Workshop\", MongoDB Workshop.",
+      "endDate": null
+    },
+    {
+      "company": "Abdul Razzak Kalsekar Polytechnic",
+      "position": "Lecturer",
+      "startDate": "2014-05-01",
+      "summary": "My responsibility includes teaching various programming subject such as C programming as the introductory course in diploma. However, I was transferred to the degree college in the same institute due to my expertise within 2 months.",
+      "endDate": "2014-07-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jawaharlal Nehru Technological University",
+      "area": "Computer Science and Engineering (CSE)",
+      "studyType": "Master of Technology (M.Tech.)",
+      "startDate": "2014-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "78.67",
+      "endDate": "2016-01-01"
+    },
+    {
+      "institution": "Maharashta State Board of Secondary and Higher Secondary Education.",
+      "area": "Elementary Education",
+      "studyType": "X (SSC)",
+      "startDate": "2005-01-01",
+      "class": "First Class",
+      "gpa": "74.53",
+      "endDate": "2006-01-01"
+    },
+    {
+      "institution": "Maharashta State Board of Secondary and Higher Secondary Education.",
+      "area": "Vocational (Computer Sci.)",
+      "studyType": "XII (HSC)",
+      "startDate": "2006-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "82.83",
+      "endDate": "2008-01-01"
+    },
+    {
+      "institution": "Maharashtra State Board of Technical Education",
+      "area": "Computer Engineering",
+      "studyType": "Diploma",
+      "startDate": "2008-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "76.76",
+      "courses": [],
+      "endDate": "2010-01-01"
+    },
+    {
+      "institution": "Mumbai University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering (BE)",
+      "startDate": "2010-01-01",
+      "class": "First Class",
+      "gpa": "68.64",
+      "courses": [],
+      "endDate": "2013-01-01"
+    }
+  ],
+  "skills": {
+      "languages": [
+        {
+          "name": "XML",
+          "level": "Beginner",
+          "ratings": "5"
+        },
+        {
+          "name": "Java",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "CSS",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Sass",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "MySQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "PHP",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "jQuery",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "JSON",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Python",
+          "level": "Beginner",
+          "ratings": "6"
+        },
+        {
+          "name": "C",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "SQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "AJAX",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "HTML",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "C++",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Grunt",
+          "level": "Entry",
+          "ratings": "4"
+        },
+        {
+          "name": "Browsersync",
+          "level": "Entry",
+          "ratings": "4"
+        },
+        {
+          "name": "Typescript",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "AngularJS(1.5)",
+          "level": "Intermediate",
+          "ratings": "6"
+        }
+      ],
+      "concepts": [
+        {
+          "name": "Databases",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Responsive Web Design",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "BEM",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "SEO",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Machine Learning",
+          "level": "Beginner",
+          "ratings": "4"
+        },
+        {
+          "name": "Data  Structure",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Programming",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "OOP",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Wireframe",
+          "level": "Beginner",
+          "ratings": "4"
+        },
+        {
+          "name": "Web Development",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MVC Pattern",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "MVVM Pattern",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Factory Method Pattern",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Singleton Pattern",
+          "level": "Intermediate",
+          "ratings": "7"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Microsoft Word",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "phpMyAdmin",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MySQL Workbench",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Dia",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Visual Studio Code",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "WordPress",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Sublime Text 3",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Netbeans",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Sublime Text 3",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Atom",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Geany",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "FireBug",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Microsoft PowerPoint",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Microsoft Excel",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Git",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Firefox",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Google Chrome",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Internet Explorer 6+",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Safari",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Google Chrome",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Corel Draw",
+          "level": "Entry",
+          "ratings": "6"
+        },
+        {
+          "name": "Corel Photopaint",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "FileZilla",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Corel Photopaint",
+          "level": "Entry",
+          "ratings": "5"
+        }
+      ]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web development"
+    },
+    {
+      "name": " Learning new technologies"
+    },
+    {
+      "name": " Graphical Designing"
+    },
+    {
+      "name": " Social Services"
+    },
+    {
+      "name": " Educational awareness"
+    },
+    {
+      "name": " Cooking"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ConceptEval",
+      "startDate": "2016-10-01",
+      "summary": "ConceptEval is system designed to test the knowledge and skills of students. The project is ongoing hence the details will be updated later. \nKey Technologies: CSS3, JQuery, Angular JS 1.X, MYSQL, AJAX, JS, PHP, Bootstrap"
+    },
+    {
+      "name": "UrbanMumbra",
+      "startDate": "2016-06-01",
+      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
+      "endDate": "2016-08-01"
+    },
+    {
+      "name": "E-Academs",
+      "startDate": "2014-12-01",
+      "summary": "E-Academs is an academic management and artificial intelligence system currently focusing on the need of Mumbai University affiliated colleges. It uses various data mining algorithms to predict subject backlog and grades. \nTechnology : PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-10-01"
+    },
+    {
+      "name": "Virtual Classroom System",
+      "startDate": "2013-01-01",
+      "summary": "Just as the term virtual means a simulation of the real thing, Virtual Classroom is a simulated classroom via Internet, which provides a convenient communication environment for distance learners just like traditional face-to-face classroom Technology such as virtual classroom is being increasingly popular worldwide as it is one of the efficient ways of e-learning which includes teacher as a server and learners (students) as the client.",
+      "endDate": "2013-04-01"
+    },
+    {
+      "name": "Security Auto Dialing",
+      "startDate": "2010-01-01",
+      "summary": "The Project consists of three sensors whenever motion is detected by any one of the sensors it sends a signal to Auto dialer. The Auto dialer will then automatically dials up three present phone numbers and plays your pre-recorded message.",
+      "endDate": "2010-04-01"
+    },
+    {
+      "name": "Computer Peripheral Sales System",
+      "startDate": "2009-01-01",
+      "summary": "The project is simple sales management software built in VB 6.0. It allows searching,\nadding, deleting and inserting the product in the inventory database. It also prepares a basic invoice.",
+      "endDate": "2009-04-01"
+    }
+  ]
+}
