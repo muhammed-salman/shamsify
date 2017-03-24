@@ -19,6 +19,17 @@ function MyAppService($http) {
             return result.data;
           });
   };
+
+  service.getWorks = function () {
+    return $http({
+          method:"GET",
+          url: "./protfolios.json"
+          }).then(function onSuccess(result) {
+            // console.log(url);
+            console.log(result.data);
+            return result.data;
+          });
+  };
   // service.getItemsForCategories = function (categoryShortName) {
   //   return $http({
   //         method:"GET",

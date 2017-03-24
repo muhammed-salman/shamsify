@@ -77,6 +77,9 @@ p {
   /*second value equal to height of footer*/
   min-height: calc(100vh - 5.2rem); }
 
+.no-bullets {
+  list-style: none !important; }
+
 .innerHeader nav ul {
   margin-top: 0.5rem;
   margin-right: 2rem;
@@ -87,27 +90,43 @@ p {
   background-color: #252525;
   color: white; }
 
-nav ul a, .anchor-bttn--blackborder, .anchor-bttn--whiteborder {
-  display: inline-block;
-  text-decoration: none !important;
-  border: 1px solid #000000;
-  padding: 0.3rem;
-  color: #000000; }
+.bttn {
+  background: transparent; }
 
-.anchor-bttn--blackborder, .anchor-bttn--whiteborder {
-  margin-left: 1rem;
+.bttn + .bttn {
+  margin-left: 1rem; }
+
+nav ul a, .anchor-bttn {
+  display: inline-block;
+  text-decoration: none !important; }
+
+nav ul .bttn--blackborder, nav ul .bttn-whiteborder {
+  padding: 0.3rem 0.7rem;
+  margin-top: 0;
+  margin-left: 0.5rem; }
+
+.active {
+  font-weight: bold;
+  background: #ffffff; }
+
+.bttn--blackborder, .bttn--whiteborder {
+  border: 2px solid;
   padding: 1rem;
   margin-top: 0.5rem; }
 
-.anchor-bttn--whiteborder {
+.bttn--whiteborder {
   color: #252525;
   border-color: #ffffff; }
 
-.anchor-bttn--blackborder:hover {
+.bttn--blackborder {
+  color: #000000;
+  border-color: #000000; }
+
+.bttn--blackborder:hover {
   color: #ffffff;
   background-color: #555555; }
 
-.anchor-bttn--whiteborder:hover, .img-text-wrapper:hover a:hover {
+.bttn--whiteborder:hover, .img-text-wrapper:hover a:hover {
   color: #353535;
   background-color: #ffffff; }
 
@@ -207,10 +226,10 @@ footer {
 .sm-font {
   font-size: 1rem; }
 
-#about, #why-me, .my-image, #my-video {
-  width: 50%;
+#about, #why-me, .my-image, #my-video, .contact-form--left, .contact-form--right {
   position: relative;
   float: left;
+  width: 50%;
   margin: 0 auto;
   padding: 1rem; }
 
@@ -225,13 +244,17 @@ footer {
   overflow: hidden;
   padding: 1rem; }
 
-#protfolios {
+.protfolios-container {
+  margin-top: 3.5rem;
+  padding: 2rem; }
+
+.protfolios {
   width: 100%;
   padding: 1rem; }
 
 .protofolios-item-wrapper {
   margin: 1rem;
-  width: 31%;
+  width: 47%;
   position: relative;
   float: left; }
 
@@ -282,6 +305,29 @@ footer {
   width: 35%;
   padding: 0.5rem; }
 
+.shots--fullscreen {
+  margin-top: 1.5rem;
+  width: 800px;
+  height: 500px; }
+
+.shots--medium-screen {
+  margin-top: 1.5rem;
+  width: 600px;
+  height: 400px; }
+
+.shots--small-screen {
+  margin-top: 1.5rem;
+  width: 450px;
+  height: 300px; }
+
+.shots--small-screen-potrait {
+  margin-top: 1.5rem;
+  width: 350px;
+  height: 500px; }
+
+.shots-frame {
+  border: 1rem solid #f0f0f0; }
+
 footer nav ul a {
   border: none;
   color: #a0a0a0;
@@ -301,16 +347,21 @@ h2 {
   margin-bottom: 1rem; }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem; }
 
 .resume {
   display: block;
   margin: 0 auto;
   margin-top: 5.2rem;
-  text-align: center;
+  text-align: left;
   padding: 1% 20%; }
+  .resume h1, .resume h2, .resume h3, .resume h4 {
+    text-align: center; }
   .resume .summary {
+    white-space: pre-wrap;
+    padding: 6px 0; }
+  .resume .summary--pre {
     white-space: pre-wrap;
     border: 2px solid #14ed14;
     padding: 1rem;
@@ -319,6 +370,8 @@ h3 {
     text-align: left; }
   .resume .skills {
     width: 100%; }
+    .resume .skills h2, .resume .skills h3 {
+      text-align: left; }
     .resume .skills .skill {
       position: relative;
       float: left;
@@ -346,5 +399,46 @@ h3 {
   white-space: none; }
   .glyphicon-star.filled {
     color: #14ed14; }
+
+.project {
+  text-align: left; }
+
+.desc {
+  float: none !important;
+  font-size: 0.9rem; }
+
+.contact {
+  margin-top: 5.2rem;
+  padding: 1% 5%; }
+  .contact .contact_form {
+    display: flex; }
+    .contact .contact_form fieldset > legend {
+      border: none;
+      margin-bottom: 10px; }
+    .contact .contact_form fieldset input, .contact .contact_form fieldset textarea {
+      border: 1px solid #0a0a0a;
+      width: 95%;
+      margin-bottom: 1.5rem;
+      padding: 2px; }
+    .contact .contact_form fieldset div {
+      position: relative;
+      float: left;
+      width: 49%;
+      align-items: justify; }
+      .contact .contact_form fieldset div > div {
+        margin-top: -1.4rem;
+        margin-bottom: 1.4rem; }
+    .contact .contact_form fieldset textarea {
+      height: 8rem; }
+  .contact .contact_social {
+    margin-top: 3rem; }
+    .contact .contact_social ul li {
+      font-size: 1.3rem;
+      margin-bottom: 1rem; }
+      .contact .contact_social ul li a {
+        text-decoration: none;
+        color: inherit; }
+        .contact .contact_social ul li a:hover {
+          color: #1B4ACC; }
 
 /*# sourceMappingURL=style.css.map */

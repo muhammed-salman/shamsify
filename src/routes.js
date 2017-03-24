@@ -22,7 +22,7 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     templateUrl: 'src/myapp/templates/home.template.html'
   })
 
-  // Premade list page
+  // About page
   .state('about', {
     url: '/about',
     templateUrl: 'src/myapp/templates/about.template.html',
@@ -30,6 +30,23 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     resolve: {
       resume: ['MyAppService', function (MyAppService) {
         return MyAppService.getResume();
+      }]
+    }
+  })
+
+  //Contact page
+  .state('contact', {
+    url: '/contact',
+    templateUrl: 'src/myapp/templates/contact.template.html'
+  })
+  //protfolios
+  .state('protfolios', {
+    url: '/protfolios',
+    templateUrl: 'src/myapp/templates/protfolios.template.html',
+    controller: 'ProtfolioController as pCtrl',
+    resolve: {
+      works: ['MyAppService', function (MyAppService) {
+        return MyAppService.getWorks();
       }]
     }
   });

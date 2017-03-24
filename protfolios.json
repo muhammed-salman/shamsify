@@ -1,0 +1,76 @@
+{
+  "work": [
+    {
+      "name": "UrbanMumbra",
+      "startDate": "2016-06-01",
+      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-08-01",
+      "client":"Department of Civil Engg, AIKTC",
+      "shots":[
+        {
+          "url":"img/urbanSheetB.png",
+          "name":"urbanSheetB.png",
+          "caption":"UrbanMumbra Data Entry Sheet",
+          "description":"UrbanMumbra Data Entry Sheet B Screenshot",
+          "resolution":"800x600",
+          "keywords":"urbanmumbra,mumbra,urban,data,entry,sheet",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/urbanMumbraLogin.png",
+          "name":"urbanMumbraLogin.png",
+          "caption":"UrbanMumbra Login Page",
+          "description":"UrbanMumbra Login Page Screenshot",
+          "resolution":"800x600",
+          "keywords":"urbanmumbra,mumbra,urban,login,page",
+          "type":"small-screen-potrait"
+        }
+      ],
+      "testimonial":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "workType":"volunteered"
+    },
+    {
+      "name": "E-Academs",
+      "startDate": "2014-12-01",
+      "summary": "E-Academs is an academic management with prediction capabilities. Currently it based on the needs of Mumbai University affiliated colleges. It uses various data mining algorithms to predict subject backlog and grades.",
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-10-01",
+      "client":"Department of Civil Engg, AIKTC",
+      "shots":[
+        {
+          "url":"img/eacadems_dashboard.png",
+          "name":"eacadems_dashboard.png",
+          "caption":"E-Academs Dashboard",
+          "description":"E-Academs User's Dashboard",
+          "resolution":"800x600",
+          "keywords":"E-Academs,eacadems,dashboard,academic,management,software",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/eacadems_ca.png",
+          "name":"eacadems_ca.png",
+          "caption":"E-Academs Continous Assessment Screen",
+          "description":"E-Academs Continous Assessment Screenshot",
+          "resolution":"800x600",
+          "keywords":"E-Academs,eacadems,continous,assessment,academic,management,software",
+          "type":"fullscreen"
+        }
+      ],
+      "testimonial":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "workType":"volunteered"
+    }
+  ]
+}

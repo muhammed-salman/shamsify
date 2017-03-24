@@ -1,0 +1,14 @@
+<div class="protfolios-container">
+	<h1 class="text-center">Protfolios</h1>
+	
+	<div class="protfolios" ng-repeat="work in pCtrl.works.work | orderBy:'-endDate'">
+		<h2>{{work.name}} <small>({{work.endDate | date:'MMM, yyyy'}})</small></h2>
+		<div><b>Description:</b> <i>{{work.summary}}</i></div>
+		<div><b>Technology:</b> <i>{{work.technology}}</i></div>
+		<figure ng-repeat="shot in work.shots">
+			<img class="shots--{{shot.type}} shots-frame center-block"  src="{{shot.url}}" alt="{{shot.description}}" title="{{shot.description}}"/>
+			<figcaption class="text-center">{{shot.caption}}</figcaption>	
+		</figure>
+		
+	</div>
+</div>

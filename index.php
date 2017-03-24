@@ -4,6 +4,7 @@
     <base href="/shamsify/"/>
 	<title>Shamsify</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body ng-app="MyApp">
@@ -24,11 +25,14 @@
     <!-- Routes -->
     <script src="src/routes.js"></script>
 
-    <!-- 'MenuApp' module artifacts -->
+    <!-- 'MyApp' module artifacts -->
     <script src="src/myapp/myapp.service.js"></script>
     <script src="src/myapp/nav.component.js"></script>
-    <script src="src/myapp/protfolios.component.js"></script>
+    <script src="src/myapp/protfolios-section.component.js"></script>
+    <!-- <script src="src/myapp/protfolios.component.js"></script> -->
     <script src="src/myapp/resume.controller.js"></script>
+    <script src="src/myapp/protfolios.controller.js"></script>
+    <script src="src/myapp/nav.controller.js"></script>
     <!-- <script src="src/myapp/items.component.js"></script> -->
     <!-- <script src="src/myapp/item-detail.controller.js"></script> -->
 	<footer class="row">

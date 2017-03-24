@@ -5,8 +5,8 @@ angular.module('MyApp')
 .controller('ResumeController', ResumeController);
 
 
-ResumeController.$inject = ['MyAppService','resume'];
-function ResumeController(MyAppService,resume) {
+ResumeController.$inject = ['MyAppService','resume','$filter'];
+function ResumeController(MyAppService,resume,$filter) {
   var rCtrl = this;
   rCtrl.resume =  resume;
   //console.log(rCtrl.resume);
@@ -18,6 +18,14 @@ function ResumeController(MyAppService,resume) {
   		x.push(i+1); 
   	} 
   	return x;
+  }
+  rCtrl.getFormatDate=function(obj){
+    if(angular.equals(null, obj))
+      return "Present";
+    else
+    {
+      return $filter('date')(obj,'MMM, yyyy');
+    }
   }
 }
 

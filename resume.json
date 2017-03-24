@@ -4,7 +4,7 @@
     "name": "Muhammed Salman Shamsi",
     "currentPost": "Assistant Professor | Freelance Developer",
     "phone": "Please Mail Me",
-    "summary": "Looking for a developer who can simultaneously work on multiple technologies and build web applications to solve real world problems. Connect with me\n\" Are you overwhelmed with manual paperwork?\" \" Are you fed up filling up redundant information?\"\n\"Did you want to make the world a better place by providing online solutions to real world problems?\"\nI solve all of these.\nI get you exactly what you need to built efficient and aesthetically pleasant web application because I combine\n- M.Tech Level expertise at database system and design patterns. \n- My passion for programming and getting at the **crux** of the problem.\n- 2 years volunteer experience in building web applications. \n- 2.5 years of experience in teaching database and web technologies. \n- Effectively resolve challenging issues. \n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- Skilled at explaining complex concept easily to any novice person.\nIn spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.\nStill not sure and want to get more insight regarding your problem or to know more, drop me a mail and I will be happy to assist you.",
+    "summary": "- A passionate developer consistently recognized by my peers and mentors for troubleshooting skills and effectively resolving challenging issues.\n- 1.75 years of volunteer experience in the field of web development.\n- Quickly learn and master new technology; equally successful in both team and self-directed settings; and proficient in a range of computer systems, languages and tools.\n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- 2.5+ years of experience in teaching database and web technologies.\n- Skilled at explaining complex concept easily to any novice person.\n- In spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.",
     "location": {
       "city": "Thane",
       "region": "Mumbai MetroPolitan Region(MMR)",
@@ -27,6 +27,22 @@
       "startDate": "2014-05-01",
       "summary": "My responsibility includes teaching various programming subject such as C programming as the introductory course in diploma. However, I was transferred to the degree college in the same institute due to my expertise within 2 months.",
       "endDate": "2014-07-01"
+    }
+  ],
+  "volunteer": [
+    {
+      "company": "Anjuman-I-Islam's Kalsekar Technical Campus",
+      "position": "Web Developer",
+      "startDate": "2014-06-01",
+      "summary": "I have developed a couple of applications for different departments of the organization at no cost. It includes a modified version of my pet project E-Academs also known as ProjectILM and a project called as UrbanMumbra which is actively used for community benefits.",
+      "endDate": null
+    },
+    {
+      "company": "AIKTC Programmers' Club",
+      "position": "Mentor",
+      "startDate": "2016-07-01",
+      "summary": "Programmer's Club is a platform for aspiring programmers to harness their skills. Being a mentor my task is to coach and guide these aspiring programmers to master their programming skills. Beside these I also co-organized various workshops,lecture and code together sessions for students.\n- Organized and Delivered One Week 'HTML & CSS and Java Workshop' as a speaker.\n- Co-organized Algorithm 1.0 and Algorithm 2.0 an inter-collegiate technical competion. I specifically dealed with technical support,financial expenditure and audit.",
+      "endDate": null
     }
   ],
   "education": [
@@ -173,6 +189,28 @@
         {
           "name": "AngularJS(1.5)",
           "level": "Intermediate",
+          "ratings": "6"
+        }
+      ],
+      "os": [
+        {
+          "name": "Windows (10+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Linux Mint(3+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Ubuntu(3+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MacOS (3 months)",
+          "level": "Professional",
           "ratings": "6"
         }
       ],
@@ -421,39 +459,36 @@
   ],
   "projects": [
     {
-      "name": "ConceptEval",
-      "startDate": "2016-10-01",
-      "summary": "ConceptEval is system designed to test the knowledge and skills of students. The project is ongoing hence the details will be updated later. \nKey Technologies: CSS3, JQuery, Angular JS 1.X, MYSQL, AJAX, JS, PHP, Bootstrap"
-    },
-    {
       "name": "UrbanMumbra",
       "startDate": "2016-06-01",
       "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
-      "endDate": "2016-08-01"
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-08-01",
+      "workType":"volunteered"
     },
     {
       "name": "E-Academs",
       "startDate": "2014-12-01",
-      "summary": "E-Academs is an academic management and artificial intelligence system currently focusing on the need of Mumbai University affiliated colleges. It uses various data mining algorithms to predict subject backlog and grades. \nTechnology : PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
-      "endDate": "2016-10-01"
+      "summary": "E-Academs is an academic management with prediction capabilities. Currently it based on the needs of Mumbai University affiliated colleges. It uses various data mining algorithms to predict subject backlog and grades.",
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-10-01",
+      "workType":"volunteered"
     },
     {
       "name": "Virtual Classroom System",
       "startDate": "2013-01-01",
-      "summary": "Just as the term virtual means a simulation of the real thing, Virtual Classroom is a simulated classroom via Internet, which provides a convenient communication environment for distance learners just like traditional face-to-face classroom Technology such as virtual classroom is being increasingly popular worldwide as it is one of the efficient ways of e-learning which includes teacher as a server and learners (students) as the client.",
-      "endDate": "2013-04-01"
-    },
-    {
-      "name": "Security Auto Dialing",
-      "startDate": "2010-01-01",
-      "summary": "The Project consists of three sensors whenever motion is detected by any one of the sensors it sends a signal to Auto dialer. The Auto dialer will then automatically dials up three present phone numbers and plays your pre-recorded message.",
-      "endDate": "2010-04-01"
+      "summary": "Virtual Classroom is a simulated classroom via Internet, which provides a convenient communication environment for distance learners just like traditional face-to-face classroom Technology such as virtual classroom is being increasingly popular worldwide as it is one of the efficient ways of e-learning which includes teacher as a server and learners (students) as the client.",
+      "technology":"EFRONT, PHP, MYSQL, AJAX, JAVASCRIPT, JQUERY",
+      "endDate": "2013-04-01",
+      "workType":"Academic"
     },
     {
       "name": "Computer Peripheral Sales System",
       "startDate": "2009-01-01",
       "summary": "The project is simple sales management software built in VB 6.0. It allows searching,\nadding, deleting and inserting the product in the inventory database. It also prepares a basic invoice.",
-      "endDate": "2009-04-01"
+      "technology":"VB 6.0",
+      "endDate": "2009-04-01",
+      "workType":"Academic"
     }
   ]
 }

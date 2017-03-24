@@ -3,12 +3,12 @@
 		<img class="innerHeader__logo" src="img/logo.png">
 		<span id="innerHeader__title">Shamsify</span>
 		<ul>
-			<li><a ui-sref="home">Home</a></li>
-			<li><a ui-sref="protfolios">Protfolios</a></li>
-			<li><a ui-sref="learncode">Learn to Code</a></li>
-			<li><a ui-sref="blog">Blog</a></li>
+			<li><a ui-sref="home" class="anchor-bttn bttn--blackborder active" ng-click="nCtrl.setActive($event)">Home</a></li>
+			<li><a ui-sref="protfolios" class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">Protfolios</a></li>
+			<li><a ui-sref="learncode" class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">Learn to Code</a></li>
+			<li><a ui-sref="blog" class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">Blog</a></li>
 			<li>
-				<a ui-sref='resources'>Resources</a>
+				<a ui-sref='resources' class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">Resources</a>
 				<ul>
 					<li><a href='#'>Slides</a></li>
 					<li><a href='#'>Notes</a></li>
@@ -16,7 +16,7 @@
 				</ul>
 				</li>
 				<li>
-					<a ui-sref='about'>About</a>
+					<a ui-sref='about' class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">About</a>
 					<ul>
 						<li><a href='#'>Education</a></li>
 						<li><a href='#'>Why Me?</a></li>
@@ -24,7 +24,7 @@
 					</ul>
 				</li>
 				<li>
-					<a ui-sref="contact">Contact</a>
+					<a ui-sref="contact" class="anchor-bttn bttn--blackborder" ng-click="nCtrl.setActive($event)">Contact</a>
 					<ul>
 						<li><a href='#'>Follow Me</a></li>
 						<li><a href='#'>Get Connected</a></li>
