@@ -4,8 +4,8 @@
 angular.module('data')
 .service('MyAppService', MyAppService);
 
-MyAppService.$inject = ['$http'];
-function MyAppService($http) {
+MyAppService.$inject = ['$http','BlogApiBasePath'];
+function MyAppService($http,BlogApiBasePath) {
   var service = this;
 
   // // Returns a promise, NOT items array directly
@@ -15,7 +15,7 @@ function MyAppService($http) {
           url: "./resume.json"
           }).then(function onSuccess(result) {
             // console.log(url);
-            console.log(result.data);
+            //console.log(result.data);
             return result.data;
           });
   };
@@ -24,6 +24,18 @@ function MyAppService($http) {
     return $http({
           method:"GET",
           url: "./protfolios.json"
+          }).then(function onSuccess(result) {
+            // console.log(url);
+            //console.log(result.data);
+            return result.data;
+          });
+  };
+
+  service.getPosts = function () {
+    return $http({
+          method:"GET",
+          url: (BlogApiBasePath+"/posts"),
+          cache: true
           }).then(function onSuccess(result) {
             // console.log(url);
             console.log(result.data);

@@ -33,6 +33,7 @@
     <script src="src/myapp/resume.controller.js"></script>
     <script src="src/myapp/protfolios.controller.js"></script>
     <script src="src/myapp/nav.controller.js"></script>
+    <script src="src/myapp/blog.controller.js"></script>
     <!-- <script src="src/myapp/items.component.js"></script> -->
     <!-- <script src="src/myapp/item-detail.controller.js"></script> -->
 	<footer class="row">

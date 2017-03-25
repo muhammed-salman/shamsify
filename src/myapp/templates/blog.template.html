@@ -1,0 +1,11 @@
+<div class="blog">
+	<h1 class="text-center">Blog Posts</h1>
+	<h2 class="text-center">Posts from Shamsi’s Blog</h2>
+	<div class="post-list">
+		<div class="post-info" ng-repeat="blog in bCtrl.posts | orderBy:'-date'">
+			<h4><a href="{{blog.link}}">{{blog.title.rendered}}</a></h4>
+			<div>{{blog.excerpt.rendered | trusted}}</div>
+			<div class="post-publish">Published on: {{blog.date | date:'MMMM d, y h:mm a'}} | Source: Shamsi's Blog</div>
+		</div>
+	</div>
+</div>

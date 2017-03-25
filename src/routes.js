@@ -39,6 +39,7 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     url: '/contact',
     templateUrl: 'src/myapp/templates/contact.template.html'
   })
+
   //protfolios
   .state('protfolios', {
     url: '/protfolios',
@@ -47,6 +48,18 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     resolve: {
       works: ['MyAppService', function (MyAppService) {
         return MyAppService.getWorks();
+      }]
+    }
+  })
+
+  //blog
+  .state('blog', {
+    url: '/blog',
+    templateUrl: 'src/myapp/templates/blog.template.html',
+    controller: 'BlogController as bCtrl',
+    resolve: {
+      posts: ['MyAppService', function (MyAppService) {
+        return MyAppService.getPosts();
       }]
     }
   });
