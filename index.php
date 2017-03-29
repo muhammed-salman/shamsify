@@ -29,13 +29,12 @@
     <script src="src/myapp/myapp.service.js"></script>
     <script src="src/myapp/nav.component.js"></script>
     <script src="src/myapp/protfolios-section.component.js"></script>
-    <!-- <script src="src/myapp/protfolios.component.js"></script> -->
     <script src="src/myapp/resume.controller.js"></script>
     <script src="src/myapp/protfolios.controller.js"></script>
     <script src="src/myapp/nav.controller.js"></script>
     <script src="src/myapp/blog.controller.js"></script>
-    <!-- <script src="src/myapp/items.component.js"></script> -->
-    <!-- <script src="src/myapp/item-detail.controller.js"></script> -->
+    <script src="src/myapp/learncode.controller.js"></script>
+    <script src="src/myapp/resources.controller.js"></script>
 	<footer class="row">
 		<div class="rights">&copy;<?php echo date('Y');?> Muhammed Salman Shamsi. All rights reserved.</div>
 		<nav class="footer__nav">

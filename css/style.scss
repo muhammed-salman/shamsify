@@ -242,6 +242,11 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.container__featured-image--small{
+    height: 20vh;
+    min-height: 150px;
+    padding: 1rem;
+}
 
 .container__featured-image__content {
     text-align: center;
@@ -430,6 +435,9 @@ h2 {
 h3 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
+}
+.text-sm{
+    font-size: 1.5rem;
 }
 .resume {
     @include block-center-element;

@@ -38,6 +38,30 @@ function MyAppService($http,BlogApiBasePath) {
           cache: true
           }).then(function onSuccess(result) {
             // console.log(url);
+            // console.log(result.data);
+            return result.data;
+          });
+  };
+
+  service.getEvents = function () {
+    return $http({
+          method:"GET",
+          url: "./events.json",
+          cache: true
+          }).then(function onSuccess(result) {
+            // console.log(url);
+            console.log(result.data);
+            return result.data;
+          });
+  };
+
+  service.getResources = function () {
+    return $http({
+          method:"GET",
+          url: "./resources.json",
+          cache: true
+          }).then(function onSuccess(result) {
+            // console.log(url);
             console.log(result.data);
             return result.data;
           });

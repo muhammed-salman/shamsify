@@ -62,6 +62,30 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
         return MyAppService.getPosts();
       }]
     }
+  })
+
+  //learncode
+  .state('learncode', {
+    url: '/learncode',
+    templateUrl: 'src/myapp/templates/learncode.template.html',
+    controller: 'LearnCodeController as lCtrl',
+    resolve: {
+      workshops: ['MyAppService', function (MyAppService) {
+        return MyAppService.getEvents();
+      }]
+    }
+  })
+  
+  //resources
+  .state('resources', {
+    url: '/resources',
+    templateUrl: 'src/myapp/templates/resources.template.html',
+    controller: 'ResourcesController as rCtrl',
+    resolve: {
+      resources: ['MyAppService', function (MyAppService) {
+        return MyAppService.getResources();
+      }]
+    }
   });
 
   // .state('items', {
