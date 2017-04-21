@@ -1,56 +1,25 @@
 {
-  "events": [
+  "resources": [
     {
-      "name": "HTML & CSS Workshop",
-      "startDate": "2016-06-01",
-      "endDate": "2016-06-05",
-      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
-      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
-      "startTime":"",
-      "endTime":"",
-      "venue":"Department of Civil Engg, AIKTC",
-      "ratings":"",
-      "feedback":[
-        {
-          "name":"",
-          "affliation":"",
-          "statement":""
-        }
-      ],
-      "amount":"",
-      "organizers":[],
-      "sponsors":[
-        {
-          "name":"",
-          "links":""
-        }
-      ]
+      "title": "Government Scholarships",
+      "description": "National Scholarships Portal is one-stop solution through which various services starting from student application, application receipt, processing, sanction and disbursal of various scholarships to Students are enabled. National Scholarships Portal is taken as Mission Mode Project under National e-Governance Plan (NeGP) ",
+      "link":"scholarships.gov.in",
+      "subtype":"",
+      "category":"Scholarships"
     },
     {
-      "name": "UrbanMumbra",
-      "startDate": "2016-06-01",
-      "endDate": "2016-08-01",
-      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
-      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
-      "startTime":"",
-      "endTime":"",
-      "venue":"Department of Civil Engg, AIKTC",
-      "ratings":"",
-      "feedback":[
-        {
-          "name":"",
-          "affliation":"",
-          "statement":""
-        }
-      ],
-      "amount":"",
-      "organizers":[],
-      "sponsors":[
-        {
-          "name":"",
-          "links":""
-        }
-      ]
+      "title": "Python Resources List",
+      "description": "A curated list of awesome Python frameworks, libraries, software and resources",
+      "link":"https://github.com/vinta/awesome-python",
+      "subtype":"Python",
+      "category":"Programming" 
+    },
+    {
+      "title": "PHP Resources List",
+      "description": "A curated list of amazingly awesome PHP libraries, resources and shiny things. ",
+      "link":"https://github.com/ziadoz/awesome-php",
+      "subtype":"PHP",
+      "category":"Programming" 
     }
   ]
 }

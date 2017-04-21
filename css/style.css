@@ -60,6 +60,9 @@ p {
   margin-right: 0;
   margin-left: 0; }
 
+.icon-bar {
+  border: 2px solid black; }
+
 /*end of css reset */
 /*mixins*/
 /*end of mixins*/
@@ -261,7 +264,8 @@ footer {
   margin: 1rem;
   width: 47%;
   position: relative;
-  float: left; }
+  float: left;
+  display: inline-block; }
 
 .protofolios-img--medium {
   width: 100%;
@@ -337,7 +341,8 @@ footer nav ul a {
   border: none;
   color: #a0a0a0;
   font-size: 1.1rem;
-  margin-left: 2.5%; }
+  margin-left: 2.5%;
+  white-space: nowrap; }
 
 .rights {
   color: #757575;
@@ -449,22 +454,35 @@ h3 {
         .contact .contact_social ul li a:hover {
           color: #1B4ACC; }
 
-.blog {
+.blog, .resources {
   margin-top: 3.5rem;
   padding: 1rem 4rem; }
 
-.post-list .post-info:nth-child(odd) {
+.resources {
+  margin-top: 0; }
+
+.post-list .post-info:nth-child(odd), .resource-list .resource-info:nth-child(odd) {
   background: #f0f0f0; }
 
-.post-list .post-info:nth-child(even) {
+.post-list .post-info:nth-child(even), .resource-list .resource-info:nth-child(even) {
   background: #f9f9f9; }
 
-.post-info {
+.post-info, .resource-info {
   padding: 0.5rem 1rem;
   border-radius: 2px;
   margin: 2rem auto; }
 
-.post-publish {
+.post-publish, .resource-category {
   color: #777777; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+.navbar-inverse {
+  background-color: #dddddd;
+  border-color: #080808; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,13 +2,14 @@
   "events": [
     {
       "name": "HTML & CSS Workshop",
-      "startDate": "2016-06-01",
-      "endDate": "2016-06-05",
-      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
-      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
-      "startTime":"",
-      "endTime":"",
-      "venue":"Department of Civil Engg, AIKTC",
+      "startDate": "2015-12-28",
+      "endDate": "2016-01-02",
+      "summary": "7 Days HTML & CSS Workshop. In this workshop you will learn how to create simple web applications using HTML and CSS.",
+      "technology":"HTML, HTML5, CSS, CSS3",
+      "startTime":"09:00 am",
+      "endTime":"05:00 pm",
+      "venue":"CAD-CAM Lab 1st Floor, Engineering Building, AIKTC, New Panvel.",
+      "status":"Event Finished",
       "ratings":"",
       "feedback":[
         {
@@ -27,14 +28,15 @@
       ]
     },
     {
-      "name": "UrbanMumbra",
-      "startDate": "2016-06-01",
-      "endDate": "2016-08-01",
-      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
-      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
-      "startTime":"",
-      "endTime":"",
-      "venue":"Department of Civil Engg, AIKTC",
+      "name": "HTML & CSS Workshop",
+      "startDate": "2015-12-28",
+      "endDate": "2016-01-02",
+      "summary": "7 Days HTML & CSS Workshop. In this workshop you will learn how to create simple web applications using HTML and CSS.",
+      "technology":"HTML, HTML5, CSS, CSS3",
+      "startTime":"09:00 am",
+      "endTime":"05:00 pm",
+      "venue":"CAD-CAM Lab 1st Floor, Engineering Building, AIKTC, New Panvel.",
+      "status":"Event Finished",
       "ratings":"",
       "feedback":[
         {

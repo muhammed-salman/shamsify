@@ -62,7 +62,7 @@ function MyAppService($http,BlogApiBasePath) {
           cache: true
           }).then(function onSuccess(result) {
             // console.log(url);
-            console.log(result.data);
+            // console.log(result.data);
             return result.data;
           });
   };

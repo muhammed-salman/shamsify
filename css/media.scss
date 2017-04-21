@@ -1,0 +1,396 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+    .navbar-elements--top{
+        display: none;
+    }
+    .container__featured-image {
+        min-height: 350px;
+        margin-top: 3rem;
+    }
+    .container__featured-image__content {
+        text-align: center;
+        font-size: 1.7rem;
+        color: #ffffff;
+        h2{
+            margin-top: 0.6rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    .container__featured-image__content > * {
+        margin-bottom: 0.5rem;
+    }
+    #about, #why-me, .my-image, #my-video,.contact-form--left,.contact-form--right {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    #my-video iframe {
+        width: 100%;
+        height: 13rem;
+    }
+    .protfolios {
+        width: 100%;
+        padding: 0rem;
+    }    
+    .protofolios-item-wrapper {
+        margin: 0rem;
+        width: 100%;
+        margin-bottom:1rem;
+    }
+    .protofolios-img--medium {
+        width: 100%;
+        height: 18rem;
+    }
+    .container__featured-msg{
+        font-size: 1.2rem;
+        a{
+            display: inline-block;
+            margin-left:0;
+            margin-top: 0.5rem;
+        }
+    }
+    footer {
+        background-color: #0a0a0a;
+        color: #f0f0f0;
+        width: 100%;
+        padding: 0.2rem 1rem;
+        text-align: center;
+        height: auto;
+        position:fixed;
+        bottom:0;
+        z-index:220;
+    }    
+    body{
+        padding-bottom: 6.5rem;
+    }
+    .navbar-toggle{
+        float: none;
+        margin: 0;
+        margin-bottom:0.5rem;
+    }
+    .navbar-elements--bottom{
+        li{
+            display: block;
+            margin-left:0;
+            width:100%;
+        }
+        a{
+            margin-left:0;
+        }
+        display:none;
+    }
+    .footer__nav{
+       margin-bottom:2px;
+       border-radius:5px;
+       li{
+        padding: 0.5rem 1rem;
+       }
+       #bttn--responsive{
+        margin-bottom:0;
+       }
+    } 
+    .protfolios-container{
+        margin-top: 2rem;
+        padding: 1rem;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+    .blog{
+        margin-top:2rem;
+        padding: 1rem;
+        h2{
+            font-size:1.5rem;
+        }
+    }
+    .resources{
+        margin-top:0;
+        padding: 1rem;
+        h2{
+            font-size:1.5rem;
+        }
+    }
+    .resume{
+        padding: 1rem;
+        margin-top:3rem;
+        .skills {
+
+            .skill {
+                width: 100%;
+                &:hover{
+                    & .glyphicon{
+                        margin-left: 1px;
+                    }
+                }
+
+                div {
+                    
+                    width: 33%;
+                }
+                div.ratings{
+                    width: 65%;
+                }
+            }
+        }
+    }
+    .contact{
+        margin-top: 0rem;
+        padding: 1rem;
+        .contact_form{
+            display:block;
+            & fieldset{
+                
+                & div{
+                    width: 98%;
+                }
+            }
+        }
+    }
+    .shots--fullscreen{
+        margin-top: 1rem;
+        width: 275px;
+        height: 200px;
+    } 
+    .shots--small-screen-potrait{
+        width: 275px;
+        height: 400px;
+    }  
+    .shots-frame{
+    border-width: 0.5rem;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+    // .container__featured-image {
+    //     min-height: 200px;
+    // }
+
+    // body{
+    //     padding-bottom: 4.5rem;
+    // }
+
+    // .navbar-elements--bottom{
+    //     li{
+    //         padding: 0.2rem;
+    //     }
+    // }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+    .navbar-elements--top{
+        li{
+            margin-left:0.5rem;
+        }
+        margin-bottom:0.5rem;
+    }
+    .container__featured-msg{
+        a{
+            margin-top: 0.5rem;
+            margin-left:0;
+        }
+    }
+    footer{
+        height: 6.5rem;
+    }
+    .container__featured-image {
+        min-height: 200px;
+        height:200px;
+        margin-top: 6.5rem;
+    }
+    #about, #why-me, .my-image, #my-video,.contact-form--left,.contact-form--right {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0.5rem 1rem;
+    }
+    #my-video iframe {
+        width: 100%;
+        //height: 13rem;
+        //overflow:
+    }
+    .protfolios {
+        width: 100%;
+        padding: 0rem;
+    }    
+    .protofolios-item-wrapper {
+        margin: 0rem;
+        width: 100%;
+        margin-bottom:1rem;
+    }
+    .protofolios-img--medium {
+        width: 100%;
+        height: 25rem;
+    }
+    .protfolios-container{
+        margin-top: 5rem;
+    }
+    .shots--fullscreen{
+        margin-top: 1.5rem;
+        width: 700px;
+        height: 450px;
+    }
+    .resume{
+        padding: 1rem;
+        margin-top: 7rem;
+
+        .skills {
+        
+            .skill {
+                &:hover{
+                        background-color: #f1f1f1;
+                    & .glyphicon{
+                        margin-left: 1px;
+                    }
+                }
+
+            }
+        }
+    }
+    .contact{
+        margin-top: 7rem;
+        padding: 1rem;
+    }
+    .blog{
+        margin-top: 6rem;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+    .protfolios-container{
+        margin-top: 2rem;
+    }
+    .container__featured-image,.contact,.blog{
+        margin-top: 3rem;
+    }
+    .resume{
+        margin-top: 4rem;
+    }
+    .protofolios-item-wrapper {
+        display: block;
+        margin: 1rem;
+        width: 46%;
+        position: relative;
+        float: left;
+    }
+
+    .protofolios-img--medium {
+        width: 100%;
+        height: 30rem;
+    }
+}
+
+/*Custom screen 980 x 1280 portrait */
+@media only screen and (min-device-width : 980px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+    .container__featured-image,.protfolios-container,.blog,.contact{
+        margin-top: 3rem;
+    }
+    .resume{
+        margin-top: 4rem;
+    }
+    
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+    
+    
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
