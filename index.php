@@ -13,7 +13,7 @@
 		<header>
 			<top-navi></top-navi>
 		</header>
-		<ui-view></ui-view>	
+		<ui-view autoscroll></ui-view>	
 	</div>
 	<!-- Libraries -->
     <script src="lib/angular.min.js"></script>
@@ -36,6 +36,7 @@
     <script src="src/myapp/blog.controller.js"></script>
     <script src="src/myapp/learncode.controller.js"></script>
     <script src="src/myapp/resources.controller.js"></script>
+    <script src="src/myapp/contact.controller.js"></script>
 	<footer class="row">
 		<nav class="footer__nav">
 				<ul class="navbar-elements--bottom">

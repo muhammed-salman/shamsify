@@ -37,7 +37,8 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
   //Contact page
   .state('contact', {
     url: '/contact',
-    templateUrl: 'src/myapp/templates/contact.template.html'
+    templateUrl: 'src/myapp/templates/contact.template.html',
+    controller:'ContactController as cCtrl'
   })
 
   //protfolios
@@ -70,7 +71,7 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     templateUrl: 'src/myapp/templates/learncode.template.html',
     controller: 'LearnCodeController as lCtrl',
     resolve: {
-      workshops: ['MyAppService', function (MyAppService) {
+      events: ['MyAppService', function (MyAppService) {
         return MyAppService.getEvents();
       }]
     }

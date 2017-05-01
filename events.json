@@ -11,6 +11,7 @@
       "venue":"CAD-CAM Lab 1st Floor, Engineering Building, AIKTC, New Panvel.",
       "status":"Event Finished",
       "ratings":"",
+      "link":"#",
       "feedback":[
         {
           "name":"",
@@ -18,12 +19,12 @@
           "statement":""
         }
       ],
-      "amount":"",
-      "organizers":[],
+      "amount":"300 INR",
+      "organizers":["Programmers Club"],
       "sponsors":[
         {
-          "name":"",
-          "links":""
+          "name":"Self Sponsored",
+          "link":"#"
         }
       ]
     },
@@ -38,6 +39,7 @@
       "venue":"CAD-CAM Lab 1st Floor, Engineering Building, AIKTC, New Panvel.",
       "status":"Event Finished",
       "ratings":"",
+      "link":"#",
       "feedback":[
         {
           "name":"",
@@ -45,12 +47,12 @@
           "statement":""
         }
       ],
-      "amount":"",
-      "organizers":[],
+      "amount":"300 INR",
+      "organizers":["Programmers Club"],
       "sponsors":[
         {
-          "name":"",
-          "links":""
+          "name":"Self Sponsored",
+          "link":"#"
         }
       ]
     }

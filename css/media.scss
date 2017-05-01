@@ -68,6 +68,7 @@
     }
     .navbar-toggle{
         float: none;
+        display: inline-block;
         margin: 0;
         margin-bottom:0.5rem;
     }
@@ -137,7 +138,7 @@
         }
     }
     .contact{
-        margin-top: 0rem;
+        margin-top: 2rem;
         padding: 1rem;
         .contact_form{
             display:block;
@@ -160,6 +161,9 @@
     }  
     .shots-frame{
     border-width: 0.5rem;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        body{padding-bottom:0;}
     }
 }
 

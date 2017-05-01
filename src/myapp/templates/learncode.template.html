@@ -7,9 +7,26 @@
 </div>
 <div class="row">
 			<div class="container__featured-msg">
-			Want to undergo a training that suits yours need? <a href="#">Discover How</a>
+			Want to undergo a training that suits yours need? <a href="contact">Discover How</a>
 			</div>	
 </div>
 <div class="row">
 	<h3 class="text-center"><b>Keep watching this section for recent learning programmes and sessions for Students and Working Professionals.</b></h3>
+	<h2 class="text-center">Events</h2>
+	<div class="row">
+		<div class="event">
+			<div class="event-info" ng-repeat="event in lCtrl.events.events | orderBy:'-startDate'">
+				<h4 class="event-title">{{event.name}}</a></h4>
+				<div>{{event.summary}}</div>
+				<div><b>Date: </b>{{event.startDate | date:'MMMM d, y'}} to {{event.endDate | date:'MMMM d, y'}}</div>
+				<div><b>Time: </b>{{event.startTime}} to {{event.endTime}}</div>
+				<div><b>Venue: </b>{{event.venue}}</div>
+				<div><b>To Register: </b><a href="{{event.link}}">Click Here</a></div>
+				<div><b>Amount: </b>{{event.amount}}</div>				
+				<div><b>Technologies: </b>{{event.technology}}</div>
+				<div><b>Organizers: </b><span ng-repeat="organizer in event.organizers">{{organizer}}</span></div>
+				<div><b>Sponsors: </b><span ng-repeat="sponsor in event.sponsors"> <a href="{{sponsor.link}}">{{sponsor.name}}</a></span></div>
+			</div>
+		</div>
+	</div>
 </div>

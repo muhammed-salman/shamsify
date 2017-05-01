@@ -539,9 +539,14 @@ h3 {
                     margin-top: -1.4rem;
                     margin-bottom: 1.4rem;
                 }
+                
             }
             & textarea{
                 height: 8rem;
+            }
+            & .help{
+                margin-top:-1.4rem;
+                margin-bottom: 1.4rem;
             }
         }
     }
@@ -560,6 +565,9 @@ h3 {
                     }
             }
         }
+    }
+    .help{
+        color: red;
     }
 }
 .blog,.resources{
@@ -592,4 +600,29 @@ h3 {
 .navbar-inverse {
     background-color: #dddddd;
     border-color: #080808;
+}
+.event{
+    padding: 1rem;
+}
+.event-info{
+    padding: 1rem;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    .event-title{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+.messages{
+    font-weight:bold;
+    background-color: #555555;
+    color: #ffffff;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+    margin-bottom:0.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.full-width{
+    width: 96% !important;
 }
