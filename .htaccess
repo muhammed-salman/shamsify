@@ -5,4 +5,15 @@ RewriteEngine On
   RewriteRule ^ - [L]
 
   # If the requested resource doesn't exist, use index.html
-  RewriteRule ^ ./index.php
+  RewriteRule ^ ./index.html
+
+#enable CORS
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+
+# whitelist domains to allow CORS between, including http/https
+<IfModule mod_headers.c>
+    SetEnvIf Origin "http(s)?://(shamsify.com|blog.shamsify.com)$" AccessControlAllowOrigin=$0
+    Header set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+</IfModule>

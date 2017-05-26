@@ -490,5 +490,87 @@
       "endDate": "2009-04-01",
       "workType":"Academic"
     }
+  ],
+  "certification":[
+    {
+      "title": "Summer Training Program in Ethical Hacking",
+      "date": "2012-07-01",
+      "expiry":"NA",
+      "institute": "Wegilant Net Solutions",
+      "grade":"NA"
+    }
+  ],
+  "mooc": [
+    
+    {
+      "title": "Single Page Web Applications with AngularJS",
+      "date": "2017-01-27",
+      "site":"coursera.org",
+      "institute": "Johns Hopkins University",
+      "grade":"100%"
+    },
+    {
+      "title": "Python Data Structures",
+      "date": "2016-10-14",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Introduction to CSS3",
+      "date": "2015-12-03",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Learning How to Learn: Powerful mental tools to help you master tough subjects",
+      "date": "2016-07-17",
+      "site":"coursera.org",
+      "institute": "University of California, San Diego",
+      "grade":"89.60%"
+    },
+    {
+      "title": "Advanced Styling with Responsive Design",
+      "date": "2016-05-18",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Programming for Everybody (Getting Started with Python)",
+      "date": "2016-05-13",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Interactivity with JavaScript",
+      "date": "2016-11-16",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Introduction to HTML5",
+      "date": "2016-01-03",
+      "site":"coursera.org",
+      "institute": "University of Michigan",
+      "grade":"100%"
+    },
+    {
+      "title": "Responsive Web Design",
+      "date": "2015-12-12",
+      "site":"coursera.org",
+      "institute": "University of London & Goldsmiths, University of London",
+      "grade":"100%"
+    },
+    {
+      "title": "The Data Scientist’s Toolbox",
+      "date": "2015-11-30",
+      "site":"coursera.org",
+      "institute": "Johns Hopkins University",
+      "grade":"100% with Distinction"
+    }
   ]
 }

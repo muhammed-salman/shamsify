@@ -41,11 +41,11 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
     controller:'ContactController as cCtrl'
   })
 
-  //protfolios
-  .state('protfolios', {
-    url: '/protfolios',
-    templateUrl: 'src/myapp/templates/protfolios.template.html',
-    controller: 'ProtfolioController as pCtrl',
+  //portfolios
+  .state('portfolios', {
+    url: '/portfolios',
+    templateUrl: 'src/myapp/templates/portfolios.template.html',
+    controller: 'PortfolioController as pCtrl',
     resolve: {
       works: ['MyAppService', function (MyAppService) {
         return MyAppService.getWorks();

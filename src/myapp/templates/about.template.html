@@ -4,31 +4,6 @@
 	<h4>{{rCtrl.resume.basics.email}} | {{rCtrl.resume.basics.location.city}} | {{rCtrl.resume.basics.location.region}} | {{rCtrl.resume.basics.location.country}}({{rCtrl.resume.basics.location.countryCode}}) </h4>
 	<p class="summary--pre">{{rCtrl.resume.basics.summary}}</p>
 	<hr/>
-	<h2>Work Experience</h2>
-	<hr/>
-	<div class="work">
-		<b ng-repeat-start="work in rCtrl.resume.work | orderBy:'-startDate'">{{work.position}}</b>
-		<div>{{work.company}}</div>
-		<div ng-repeat-end>{{rCtrl.getFormatDate(work.startDate)}} - {{rCtrl.getFormatDate(work.endDate)}}</div>
-	</div>
-	<hr/>
-	<h2>Volunteer Experience</h2>
-	<hr/>
-	<div class="work">
-		<div  ng-repeat-start="work in rCtrl.resume.volunteer | orderBy:'-startDate'"><b>{{work.position}}</b>, {{work.company}} ({{rCtrl.getFormatDate(work.startDate)}} - {{rCtrl.getFormatDate(work.endDate)}})</div>
-		<div class="summary" ng-repeat-end>{{work.summary}}</div>
-	</div>
-	<hr/>
-	<h2>Education</h2>
-	<hr/>
-	<div class="education">
-		<b ng-repeat-start="edu in rCtrl.resume.education | orderBy:'-startDate'">{{edu.studyType}} - <em>{{edu.area}}</em></b>
-		<div>
-			{{edu.class}}, {{edu.institution}}	
-		</div>
-		<div ng-repeat-end>{{edu.startDate | date:'yyyy'}} - {{edu.endDate | date:'yyyy'}}</div>
-	</div>
-	<hr/>
 	<h2>Skills</h2>
 	<div class="skills">
 		<hr/>
@@ -85,6 +60,57 @@
 		</div>
 	</div>	
 	<hr/>
+	<h2>Education</h2>
+	<hr/>
+	<div class="education">
+		<b ng-repeat-start="edu in rCtrl.resume.education | orderBy:'-startDate'">{{edu.studyType}} - <em>{{edu.area}}</em></b>
+		<div>
+			{{edu.class}}, {{edu.institution}}	
+		</div>
+		<div ng-repeat-end>{{edu.startDate | date:'yyyy'}} - {{edu.endDate | date:'yyyy'}}</div>
+	</div>
+	<hr/>
+	<h2>Courses / Certifications</h2>
+	<hr/>
+	<div>
+		<h3 class="text-left">MOOC's</h3>
+		<div class="row">
+			<ul>
+				<li ng-repeat="course in rCtrl.resume.mooc | orderBy:'-date'">
+					<b>{{course.title}} - <em>({{course.site}})</em></b>
+					<div>{{course.institute}}, Grade Acheived: {{course.grade}}, Completed on: {{rCtrl.getFormatDate(course.date)}}</div>
+				</li>
+			</ul>
+		</div>
+		<hr/>
+		<h3 class="text-left">Certification</h3>
+		<div class="row">
+			<ul>
+				<li ng-repeat="course in rCtrl.resume.certification | orderBy:'-date'">
+					<b>{{course.title}}</b>
+					<div>{{course.institute}}</div>
+					<div>Grade Acheived: {{course.grade}}, Completed on: {{rCtrl.getFormatDate(course.date)}}, Expiry: {{rCtrl.getFormatDate(course.expiry)}}</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<hr/>
+	<h2>Work Experience</h2>
+	<hr/>
+	<div class="work">
+		<b ng-repeat-start="work in rCtrl.resume.work | orderBy:'-startDate'">{{work.position}}</b>
+		<div>{{work.company}}</div>
+		<div ng-repeat-end>{{rCtrl.getFormatDate(work.startDate)}} - {{rCtrl.getFormatDate(work.endDate)}}</div>
+	</div>
+	<hr/>
+	<h2>Volunteer Experience</h2>
+	<hr/>
+	<div class="work">
+		<div  ng-repeat-start="work in rCtrl.resume.volunteer | orderBy:'-startDate'"><b>{{work.position}}</b>, {{work.company}} ({{rCtrl.getFormatDate(work.startDate)}} - {{rCtrl.getFormatDate(work.endDate)}})</div>
+		<div class="summary" ng-repeat-end>{{work.summary}}</div>
+	</div>
+	<hr/>
+	
 	<h2>Projects</h2>
 	<hr/>
 	<div class="row">

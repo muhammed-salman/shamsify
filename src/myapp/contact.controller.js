@@ -21,7 +21,7 @@ function ContactController($http,MyAppService) {
     .then(function onSuccess(result) {
       console.log(result);
 
-      if (!result.data.success) {
+      if (!result.data.success && !result.data.message) {
         // if not successful, bind errors to error variables
         cCtrl.errorFirstName = result.data.errors.firstName;
         cCtrl.errorLastName = result.data.errors.lastName;

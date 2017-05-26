@@ -1,6 +1,6 @@
 <?php
 // process.php
-$path =$_SERVER['DOCUMENT_ROOT'].'shamsify/lib/php/functions.php';
+$path =$_SERVER['DOCUMENT_ROOT'].'/lib/php/functions.php';
 require_once $path;
 //echo $path;
 $errors = array();  // array to hold validation errors
@@ -59,15 +59,30 @@ if (!empty($errors)) {
   $data['success'] = false;
   $data['errors']  = $errors;
 } else {
-  $from="shamsvk8@shamsify.com";
+  $emailto = 'talktoshamsi@gmail.com';
+  $toname = 'Muhammed Salman Shamsi';
+  $emailfrom = 'muhammedsalman@shamsify.com';
+  $fromname = $firstName.' '.$lastName;
+  $params = '-f ' . $emailfrom;
+  // $from="muhammedsalman@shamsify.com";
   // if there are no errors, return a message
-  $to="muhammedsalman@shamsify.com";
-  $headers="From: ".$from."\r\n";
-  $headers.="Reply-To: ".$email."\r\n";
-  $headers .= "CC: talktoshamsi@gmail.com\r\n";
-  $headers .= "MIME-Version: 1.0\r\n";
-  $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-  if(mail($to, $subject, $message, $headers)){
+  // $to="talktoshamsi@gmail.com";
+  // $headers="From: ".$from."\r\n";
+  // $headers.="Reply-To: ".$email."\r\n";
+  // $headers .= "CC: talktoshamsi@gmail.com\r\n";
+  // $headers .= "MIME-Version: 1.0\r\n";
+  // $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+  $headers = 
+    'Return-Path: ' . $emailfrom . "\r\n" . 
+    'From: ' . $fromname . ' <' . $emailfrom . '>' . "\r\n" . 
+    'X-Priority: 3' . "\r\n" . 
+    'X-Mailer: PHP ' . phpversion() .  "\r\n" . 
+    'Reply-To: ' . $fromname . ' <' . $email . '>' . "\r\n" .
+    'MIME-Version: 1.0' . "\r\n" . 
+    'Content-Transfer-Encoding: 8bit' . "\r\n" . 
+    'Content-Type: text/plain; charset=UTF-8' . "\r\n";
+  
+  if($test = mail($emailto, $subject, $message, $headers, $params)){
     $data['success'] = true;
     $data['message'] = "Thank You! I'll get back to you shortly!";
   }

@@ -31,16 +31,16 @@
         width: 100%;
         height: 13rem;
     }
-    .protfolios {
+    .portfolios {
         width: 100%;
         padding: 0rem;
     }    
-    .protofolios-item-wrapper {
+    .portfolios-item-wrapper {
         margin: 0rem;
         width: 100%;
         margin-bottom:1rem;
     }
-    .protofolios-img--medium {
+    .portfolios-img--medium {
         width: 100%;
         height: 18rem;
     }
@@ -93,9 +93,10 @@
         margin-bottom:0;
        }
     } 
-    .protfolios-container{
+    .portfolios-container{
         margin-top: 2rem;
         padding: 1rem;
+        padding-bottom:7rem;
         h2{
             font-size: 1.5rem;
         }
@@ -103,6 +104,7 @@
     .blog{
         margin-top:2rem;
         padding: 1rem;
+        padding-bottom:7rem;
         h2{
             font-size:1.5rem;
         }
@@ -110,6 +112,7 @@
     .resources{
         margin-top:0;
         padding: 1rem;
+        padding-bottom:7rem;
         h2{
             font-size:1.5rem;
         }
@@ -117,6 +120,7 @@
     .resume{
         padding: 1rem;
         margin-top:3rem;
+        padding-bottom:7rem;
         .skills {
 
             .skill {
@@ -148,7 +152,13 @@
                     width: 98%;
                 }
             }
+            .contact-form--right{
+                padding-bottom:7rem;
+            }
         }
+    }
+    .about{
+        padding-bottom:7rem;
     }
     .shots--fullscreen{
         margin-top: 1rem;
@@ -224,20 +234,20 @@
         //height: 13rem;
         //overflow:
     }
-    .protfolios {
+    .portfolios {
         width: 100%;
         padding: 0rem;
     }    
-    .protofolios-item-wrapper {
+    .portfolios-item-wrapper {
         margin: 0rem;
         width: 100%;
         margin-bottom:1rem;
     }
-    .protofolios-img--medium {
+    .portfolios-img--medium {
         width: 100%;
         height: 25rem;
     }
-    .protfolios-container{
+    .portfolios-container{
         margin-top: 5rem;
     }
     .shots--fullscreen{
@@ -274,7 +284,7 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
-    .protfolios-container{
+    .portfolios-container{
         margin-top: 2rem;
     }
     .container__featured-image,.contact,.blog{
@@ -283,7 +293,7 @@
     .resume{
         margin-top: 4rem;
     }
-    .protofolios-item-wrapper {
+    .portfolios-item-wrapper {
         display: block;
         margin: 1rem;
         width: 46%;
@@ -291,7 +301,7 @@
         float: left;
     }
 
-    .protofolios-img--medium {
+    .portfolios-img--medium {
         width: 100%;
         height: 30rem;
     }
@@ -300,7 +310,7 @@
 /*Custom screen 980 x 1280 portrait */
 @media only screen and (min-device-width : 980px) and (max-device-width : 1024px) and (orientation : portrait) {
 /* Styles */
-    .container__featured-image,.protfolios-container,.blog,.contact{
+    .container__featured-image,.portfolios-container,.blog,.contact{
         margin-top: 3rem;
     }
     .resume{

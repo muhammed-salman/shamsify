@@ -27,34 +27,6 @@
           "link":"#"
         }
       ]
-    },
-    {
-      "name": "HTML & CSS Workshop",
-      "startDate": "2015-12-28",
-      "endDate": "2016-01-02",
-      "summary": "7 Days HTML & CSS Workshop. In this workshop you will learn how to create simple web applications using HTML and CSS.",
-      "technology":"HTML, HTML5, CSS, CSS3",
-      "startTime":"09:00 am",
-      "endTime":"05:00 pm",
-      "venue":"CAD-CAM Lab 1st Floor, Engineering Building, AIKTC, New Panvel.",
-      "status":"Event Finished",
-      "ratings":"",
-      "link":"#",
-      "feedback":[
-        {
-          "name":"",
-          "affliation":"",
-          "statement":""
-        }
-      ],
-      "amount":"300 INR",
-      "organizers":["Programmers Club"],
-      "sponsors":[
-        {
-          "name":"Self Sponsored",
-          "link":"#"
-        }
-      ]
     }
   ]
 }

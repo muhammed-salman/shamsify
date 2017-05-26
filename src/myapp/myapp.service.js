@@ -23,7 +23,7 @@ function MyAppService($http,BlogApiBasePath) {
   service.getWorks = function () {
     return $http({
           method:"GET",
-          url: "./protfolios.json"
+          url: "./portfolios.json"
           }).then(function onSuccess(result) {
             // console.log(url);
             //console.log(result.data);
@@ -50,7 +50,7 @@ function MyAppService($http,BlogApiBasePath) {
           cache: true
           }).then(function onSuccess(result) {
             // console.log(url);
-            console.log(result.data);
+            //console.log(result.data);
             return result.data;
           });
   };
