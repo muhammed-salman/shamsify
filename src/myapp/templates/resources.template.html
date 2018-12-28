@@ -10,7 +10,7 @@
 	</div>
 	<div class="row">
 		<div class="resource-list">
-			<div class="resource-info" ng-repeat="resource in rCtrl.resources.resources | orderBy:'-category'">
+			<div class="resource-info" ng-repeat="resource in rCtrl.resources.resources | orderBy:['category','title']">
 				<h4><a href="{{resource.link}}">{{resource.title}}</a></h4>
 				<div>{{resource.description}}</div>
 				<div class="resource-category">Category: {{resource.category}}</div>

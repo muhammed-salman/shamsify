@@ -23,9 +23,9 @@ function RoutesConfig($stateProvider, $urlRouterProvider,$locationProvider) {
   })
 
   // About page
-  .state('about', {
-    url: '/about',
-    templateUrl: 'src/myapp/templates/about.template.html',
+  .state('resume', {
+    url: '/resume',
+    templateUrl: 'src/myapp/templates/resume.template.html',
     controller: 'ResumeController as rCtrl',
     resolve: {
       resume: ['MyAppService', function (MyAppService) {

@@ -1,6 +1,61 @@
 {
   "work": [
     {
+      "name": "Local Business Theme - Website.co.in",
+      "startDate": "2018-03-19",
+      "summary": "An elegant & fully Responsive theme for Local Businesses.",
+      "technology":"HTML5, CSS3, JAVASCRIPT, JQUERY, LARAVEL 5.4, SEMANTIC-UI",
+      "endDate": "2018-05-03",
+      "client":"InstaWeb Labs Pvt. Ltd",
+      "shots":[
+        {
+          "url":"img/LocalBusiness1/index-slider.png",
+          "name":"index-slider.png",
+          "caption":"Index Page",
+          "description":"Index Page Slider",
+          "resolution":"1439x701",
+          "keywords":"index,page,slider",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/LocalBusiness1/products.png",
+          "name":"products.png",
+          "caption":"Products Page",
+          "description":"Products Page",
+          "resolution":"1439x701",
+          "keywords":"products,page,items,business,discount,sale",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/LocalBusiness1/verticalsidebar.png",
+          "name":"verticalsidebar.png",
+          "caption":"Responsive Navigation",
+          "description":"Responsive Navigation Vertical Sidebar",
+          "resolution":"375x665",
+          "keywords":"responsive,vertical,sidebar,navigation",
+          "type":"small-screen-potrait"
+        },
+        {
+          "url":"img/LocalBusiness1/updates-responsive.png",
+          "name":"updates-responsive.png",
+          "caption":"Responsive Updates Page",
+          "description":"Responsive Updates Page",
+          "resolution":"375x665",
+          "keywords":"responsive,updates,page",
+          "type":"small-screen-potrait"
+        }
+
+      ],
+      "testimonial":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "workType":"paid"
+    },
+    {
       "name": "UrbanMumbra",
       "startDate": "2016-06-01",
       "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",

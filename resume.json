@@ -4,7 +4,7 @@
     "name": "Muhammed Salman Shamsi",
     "currentPost": "Assistant Professor | Freelance Developer",
     "phone": "Please Mail Me",
-    "summary": "- A passionate developer consistently recognized by my peers and mentors for troubleshooting skills and effectively resolving challenging issues.\n- 1.75 years of volunteer experience in the field of web development.\n- Quickly learn and master new technology; equally successful in both team and self-directed settings; and proficient in a range of computer systems, languages and tools.\n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- 2.5+ years of experience in teaching database and web technologies.\n- Skilled at explaining complex concept easily to any novice person.\n- In spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.",
+    "summary": "- A passionate developer & teacher consistently recognized by my peers and mentors for troubleshooting skills and effectively resolving challenging issues.\n- 2.5 years of volunteer hands-on experience in the field of web development.\n- 3.5+ years of experience in teaching database and web technologies.\n- Quickly learn and master new technology; equally successful in both team and self-directed settings; and proficient in a range of computer systems, languages and tools.\n- Completed 11 MOOC’s on Coursera, 8 on Udemy, 5 on LinkedIn Learning which proves me a constantly motivated learner possessing in demand technical skills.\n- 2.5k+ Stack Overflow reputation and 35+ github repository which demonstrate my contribution to open source community.\n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- Skilled at explaining complex concept easily to any novice person.\n- In spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.",
     "location": {
       "city": "Thane",
       "region": "Mumbai MetroPolitan Region(MMR)",
@@ -41,7 +41,7 @@
       "company": "AIKTC Programmers' Club",
       "position": "Mentor",
       "startDate": "2016-07-01",
-      "summary": "Programmer's Club is a platform for aspiring programmers to harness their skills. Being a mentor my task is to coach and guide these aspiring programmers to master their programming skills. Beside these I also co-organized various workshops,lecture and code together sessions for students.\n- Organized and Delivered One Week 'HTML & CSS and Java Workshop' as a speaker.\n- Co-organized Algorithm 1.0 and Algorithm 2.0 an inter-collegiate technical competion. I specifically dealed with technical support,financial expenditure and audit.",
+      "summary": "Programmer's Club is a platform for aspiring programmers to harness their skills. Being a mentor my task is to coach and guide these aspiring programmers to master their programming skills. Beside these I also co-organized various workshops,lecture and code together sessions for students.\n-• Delivered Three Days ‘JavaScript and Node.js Workshop’ as a speaker.\n- Organized and Delivered One Week 'HTML & CSS and Java Workshop' as a speaker.\n- Co-organized Algorithm 1.0, Algorithm 2.0, and Algorithm 3.0 an inter-collegiate technical competion. I specifically dealed with technical support,financial expenditure and audit.",
       "endDate": null
     }
   ],
@@ -157,6 +157,31 @@
           "ratings": "7"
         },
         {
+          "name": "React",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Redux",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "React-Native",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "NodeJS",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "MongoDB",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
           "name": "AJAX",
           "level": "Intermediate",
           "ratings": "6"
@@ -190,6 +215,21 @@
           "name": "AngularJS(1.5)",
           "level": "Intermediate",
           "ratings": "6"
+        },
+        {
+          "name": "GraphQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Webpack",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Django",
+          "level": "Intermediate",
+          "ratings": "5"
         }
       ],
       "os": [
@@ -209,9 +249,9 @@
           "ratings": "8"
         },
         {
-          "name": "MacOS (3 months)",
+          "name": "MacOS (2 year)",
           "level": "Professional",
-          "ratings": "6"
+          "ratings": "7"
         }
       ],
       "concepts": [
@@ -234,11 +274,6 @@
           "name": "SEO",
           "level": "Intermediate",
           "ratings": "6"
-        },
-        {
-          "name": "Machine Learning",
-          "level": "Beginner",
-          "ratings": "4"
         },
         {
           "name": "Data  Structure",
@@ -284,6 +319,11 @@
           "name": "Singleton Pattern",
           "level": "Intermediate",
           "ratings": "7"
+        },
+        {
+          "name": "Machine Learning",
+          "level": "Beginner",
+          "ratings": "6"
         }
       ],
       "tools": [
@@ -497,11 +537,82 @@
       "date": "2012-07-01",
       "expiry":"NA",
       "institute": "Wegilant Net Solutions",
+      "certificateNo":"STP-ID 1007 S.L.No. 068",
+      "grade":"NA"
+    },
+    {
+      "title": "Advanced React with Redux",
+      "date": "2017-09-04",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-YAYQNQEF",
+      "grade":"NA"
+    },
+    {
+      "title": "Modern React with Redux",
+      "date": "2017-08-23",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-UHNLO7T4",
+      "grade":"NA"
+    },
+    {
+      "title": "The Complete React Native and Redux Course",
+      "date": "2017-09-21",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-O8H2DNDK",
+      "grade":"NA"
+    },
+    {
+      "title": "The Complete Node.js Developer Course (2nd Edition)",
+      "date": "2017-10-22",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-79051T98",
+      "grade":"NA"
+    },
+    {
+      "title": "Python and Django Full Stack Web Developer Bootcamp",
+      "date": "2017-12-26",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-7UWFKR36",
+      "grade":"NA"
+    },
+    {
+      "title": "GraphQL with React: The Complete Developers Guide",
+      "date": "2018-02-06",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-VZH66IO0",
+      "grade":"NA"
+    },
+    {
+      "title": "Webpack 2: The Complete Developer's Guide",
+      "date": "2018-02-13",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-74K0DFVZ",
+      "grade":"NA"
+    },
+    {
+      "title": "Machine Learning A-Z™: Hands-On Python & R …",
+      "date": "2018-11-18",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-YVC9LEBY",
       "grade":"NA"
     }
   ],
   "mooc": [
-    
+    {
+      "title": "Machine Learning",
+      "date": "2017-07-28",
+      "site":"coursera.org",
+      "institute": "Standford University",
+      "grade":"96.90%"
+    },
     {
       "title": "Single Page Web Applications with AngularJS",
       "date": "2017-01-27",

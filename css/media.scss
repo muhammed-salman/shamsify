@@ -47,7 +47,7 @@
     .container__featured-msg{
         font-size: 1.2rem;
         a{
-            display: inline-block;
+            display: block;
             margin-left:0;
             margin-top: 0.5rem;
         }
@@ -173,7 +173,7 @@
     border-width: 0.5rem;
     }
     @media screen and (-webkit-min-device-pixel-ratio:0) {
-        body{padding-bottom:0;}
+        /*body{padding-bottom:6.5rem;}*/
     }
 }
 
@@ -205,7 +205,7 @@
 /* Styles */
     .navbar-elements--top{
         li{
-            margin-left:0.5rem;
+            margin-left:0.3rem;
         }
         margin-bottom:0.5rem;
     }
@@ -406,5 +406,12 @@ iPad 3
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 /* Styles */
+}
+/*Custom size */
+@media only screen and (min-device-width: 360px) and (max-device-width: 495px) {
+/* Styles */
+    body{
+        padding-bottom: 4.5rem;
+    }
 }
 

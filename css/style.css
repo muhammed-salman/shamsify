@@ -521,4 +521,41 @@ h3 {
 ul {
   list-style-position: inside; }
 
+.icon-bttn {
+  background: transparent; }
+
+.bttn-ellipsis-v {
+  display: inline-block;
+  border: 1px solid black;
+  background: #f5f5f5;
+  margin-bottom: 0.1rem;
+  padding: 0.3rem; }
+
+#photo-icon {
+  text-align: center; }
+  #photo-icon div.myphoto_circle--large {
+    display: inline-block; }
+  #photo-icon div.icon-bttn {
+    background: #f5f5f5;
+    border: 1px solid black;
+    padding: 0.3rem;
+    padding-bottom: 0.35rem;
+    font-size: 1.1rem;
+    display: inline-block; }
+    #photo-icon div.icon-bttn a {
+      color: black; }
+      #photo-icon div.icon-bttn a:hover {
+        text-decoration: none; }
+    #photo-icon div.icon-bttn:hover {
+      background: #ffffff; }
+
+.visible {
+  visibility: visible !important; }
+
+@keyframes slidebottom {
+  0% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
 /*# sourceMappingURL=style.css.map */

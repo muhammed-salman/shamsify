@@ -1,5 +1,12 @@
 <div class="resume">
-	<div class="myphoto_circle--large"></div>
+	
+	<div id="photo-icon">
+		<div class="myphoto_circle--large"></div>
+		<div>
+			<div class="bttn-ellipsis-v" ng-click="rCtrl.setVisibility()"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			<div class="icon-bttn"><a title="Download" ng-href="{{ rCtrl.resume.url }}" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Download</a></div>
+		</div>
+	</div>
 	<h1>{{rCtrl.resume.basics.name}}</h1>
 	<h4>{{rCtrl.resume.basics.email}} | {{rCtrl.resume.basics.location.city}} | {{rCtrl.resume.basics.location.region}} | {{rCtrl.resume.basics.location.country}}({{rCtrl.resume.basics.location.countryCode}}) </h4>
 	<p class="summary--pre">{{rCtrl.resume.basics.summary}}</p>
@@ -73,23 +80,23 @@
 	<h2>Courses / Certifications</h2>
 	<hr/>
 	<div>
+		<h3 class="text-left">Certifications</h3>
+		<div class="row">
+			<ul>
+				<li ng-repeat="course in rCtrl.resume.certification | orderBy:'-date'">
+					<b>{{course.title}}</b>
+					<div>{{course.institute}}, Certificate No: {{course.certificateNo}}</div>
+					<div>Completed on: {{rCtrl.getFormatDate(course.date)}}, Expiry: {{rCtrl.getFormatDate(course.expiry)}}</div>
+				</li>
+			</ul>
+		</div>
+		<hr/>
 		<h3 class="text-left">MOOC's</h3>
 		<div class="row">
 			<ul>
 				<li ng-repeat="course in rCtrl.resume.mooc | orderBy:'-date'">
 					<b>{{course.title}} - <em>({{course.site}})</em></b>
 					<div>{{course.institute}}, Grade Acheived: {{course.grade}}, Completed on: {{rCtrl.getFormatDate(course.date)}}</div>
-				</li>
-			</ul>
-		</div>
-		<hr/>
-		<h3 class="text-left">Certification</h3>
-		<div class="row">
-			<ul>
-				<li ng-repeat="course in rCtrl.resume.certification | orderBy:'-date'">
-					<b>{{course.title}}</b>
-					<div>{{course.institute}}</div>
-					<div>Grade Acheived: {{course.grade}}, Completed on: {{rCtrl.getFormatDate(course.date)}}, Expiry: {{rCtrl.getFormatDate(course.expiry)}}</div>
 				</li>
 			</ul>
 		</div>

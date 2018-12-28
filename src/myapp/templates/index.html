@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/"/>
+    <!-- <base href="http://www.shamsify.com/"/> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muhammed Salman Shamsi: A Passionate Web Developer</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png?"/>
+    <link rel="canonical" href="http://www.shamsify.com/"/>
+	<meta name="description" content="Hi! I'm Muhammed Salman Shamsi. I have passion for web development and databases. I love to create, teach and design applications for web and mobile devices."/>
+	<meta property="og:site_name" content="shamsify.com"/>
+	<meta property="og:title" content="Muhammed Salman Shamsi: A Passionate Web Developer"/>
+	<meta property="og:url" content="http://www.shamsify.com/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:description" content="Hi! I'm Muhammed Salman Shamsi. I have passion for web development and databases. I love to create, teach and design applications for web and mobile devices."/>
+	<meta itemprop="name" content="Muhammed Salman Shamsi: A Passionate Web Developer"/>
+	<meta itemprop="url" content="https://www.shamsify.com/"/>
+	<meta itemprop="description" content="Hi! I'm Muhammed Salman Shamsi. I have passion for web development and databases. I love to create, teach and design applications for web and mobile devices."/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body ng-app="MyApp">
+	<div class="container-fluid">
+		<header>
+			<top-navi></top-navi>
+		</header>
+		<ui-view autoscroll></ui-view>	
+	</div>
+	<!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/myapp/myapp.module.js"></script>
+    <script src="src/myapp/data.module.js"></script>
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- 'MyApp' module artifacts -->
+    <script src="src/myapp/myapp.service.js"></script>
+    <script src="src/myapp/myapp.directives.js"></script>
+    <script src="src/myapp/nav.component.js"></script>
+    <script src="src/myapp/portfolios-section.component.js"></script>
+    <script src="src/myapp/resume.controller.js"></script>
+    <script src="src/myapp/portfolios.controller.js"></script>
+    <script src="src/myapp/nav.controller.js"></script>
+    <script src="src/myapp/blog.controller.js"></script>
+    <script src="src/myapp/learncode.controller.js"></script>
+    <script src="src/myapp/resources.controller.js"></script>
+    <script src="src/myapp/contact.controller.js"></script>
+	<footer class="row">
+		<nav class="footer__nav">
+				<ul class="navbar-elements--bottom">
+					<li><a toggle-class ui-sref='home'>Home</a></li>
+					<li><a toggle-class ui-sref='portfolios'>Portfolios</a></li>
+					<li><a toggle-class ui-sref='learncode'>Learn to Code</a></li>
+					<li><a toggle-class href="http://blog.shamsify.com" target="_blank">Blog</a></li>
+					<li><a toggle-class ui-sref='resources'>Resources</a></li>
+					<li><a toggle-class ui-sref='about'>About</a></li>
+					<li><a toggle-class ui-sref='contact'>Contact</a></li>
+				</ul>
+				<button type="button" id="bttn--responsive" class="navbar-toggle navbar-inverse" toggle-class data-target="#myNavbar">
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+		</nav> 
+		<div class="rights">&copy;<span id="cyear"></span> Muhammed Salman Shamsi. All rights reserved.</div>
+		<script> 
+			var d=(new Date()).getFullYear();
+			document.getElementById("cyear").innerHTML=d;
+		</script>
+	</footer>
+</body>
+</html>

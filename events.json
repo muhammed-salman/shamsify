@@ -27,6 +27,62 @@
           "link":"#"
         }
       ]
+    },
+    {
+      "name": "Python Workshop",
+      "startDate": "2017-09-22",
+      "endDate": "2017-09-24",
+      "summary": "3 Days Python Workshop. In this workshop you will learn the fundamentals of python programming.",
+      "technology":"Python 3",
+      "startTime":"09:00 am",
+      "endTime":"05:00 pm",
+      "venue":"Project Lab 3rd Floor, Engineering Building, AIKTC, New Panvel.",
+      "status":"Event Finished",
+      "ratings":"",
+      "link":"#",
+      "feedback":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "amount":"300 INR",
+      "organizers":["Programmers Club"],
+      "sponsors":[
+        {
+          "name":"Self Sponsored",
+          "link":"#"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript and Node.js Workshop",
+      "startDate": "2017-09-22",
+      "endDate": "2017-09-24",
+      "summary": "3 Days Node.js Workshop. In this workshop you will learn the about JavaScript and Node.js.",
+      "technology":"JavaScript, Node.js",
+      "startTime":"09:00 am",
+      "endTime":"05:00 pm",
+      "venue":"Project Lab 3rd Floor, Engineering Building, AIKTC, New Panvel.",
+      "status":"Event Finished",
+      "ratings":"",
+      "link":"#",
+      "feedback":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "amount":"300 INR",
+      "organizers":["Programmers Club"],
+      "sponsors":[
+        {
+          "name":"Self Sponsored",
+          "link":"#"
+        }
+      ]
     }
   ]
 }
