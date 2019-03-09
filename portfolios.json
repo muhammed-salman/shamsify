@@ -1,6 +1,61 @@
 {
   "work": [
     {
+      "name": "OPMS",
+      "startDate": "2019-02-11",
+      "summary": "An opthalmology patient management system",
+      "technology": "HTML5, CSS3, JAVASCRIPT, JQUERY, REACT, REDUX, MONGODB (MONGOOSE), BOOTSTRAP, SASS, EXPRESS, NODEJS",
+      "endDate": "2019-03-09",
+      "client":"Dr. Shahid Ansari",
+      "shots":[
+        {
+          "url":"img/Opms/consultation.png",
+          "name":"consultation.png",
+          "caption":"Consultation Page",
+          "description":"Consultation Page",
+          "resolution":"1439x701",
+          "keywords":"consultation,page",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/Opms/consultation-pres.png",
+          "name":"consultation-pres.png",
+          "caption":"Consultation Page - Prescription Section",
+          "description":"Consultation Page - Prescription Section",
+          "resolution":"1439x701",
+          "keywords":"consultation,page,prescription",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/Opms/dashboard.png",
+          "name":"dashboard.png",
+          "caption":"Dashboard Page",
+          "description":"Dashboard Page",
+          "resolution":"1439x701",
+          "keywords":"dashboard,page",
+          "type":"fullscreen"
+        },
+        {
+          "url":"img/Opms/report.png",
+          "name":"report.png",
+          "caption":"Generated Report",
+          "description":"Generated Report",
+          "resolution":"1439x701",
+          "keywords":"report,page",
+          "type":"small-screen-potrait"
+        }
+
+      ],
+      "testimonial":[
+        {
+          "name":"",
+          "affliation":"",
+          "statement":""
+        }
+      ],
+      "workType":"paid"
+    },
+    {
       "name": "Local Business Theme - Website.co.in",
       "startDate": "2018-03-19",
       "summary": "An elegant & fully Responsive theme for Local Businesses.",
