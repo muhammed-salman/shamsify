@@ -9,7 +9,7 @@ ResumeController.$inject = ['MyAppService','resume','$filter'];
 function ResumeController(MyAppService,resume,$filter) {
   var rCtrl = this;
   rCtrl.resume =  resume;
-  rCtrl.resume.url="https://shamsify.com/MuhammedSalmanResume.pdf";
+  rCtrl.resume.url="MuhammedSalmanResume.pdf";
   //console.log(rCtrl.resume);
   rCtrl.getNumber=function(number){
   	// console.log(number);
