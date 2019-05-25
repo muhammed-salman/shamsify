@@ -2,6 +2,6 @@
 'use strict';
 
 angular.module('data', [])
-.constant('BlogApiBasePath', "http://blog.shamsify.com/wp-json/wp/v2");
+.constant('BlogApiBasePath', "http://blog.shamsi.dev/wp-json/wp/v2");
 
 })();
