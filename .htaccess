@@ -3,7 +3,7 @@ RewriteEngine On
   RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
   RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
   #RewriteCond %{SERVER_PORT} 80 
-  #RewriteRule ^(.*)$ https://www.shamsify.com/$1 [R,L]
+  #RewriteRule ^(.*)$ https://www.shamsi.dev/$1 [R,L]
   RewriteRule ^ - [L]
   
   # If the requested resource doesn't exist, use index.html
@@ -16,6 +16,6 @@ RewriteEngine On
 
 # whitelist domains to allow CORS between, including http/https
 <IfModule mod_headers.c>
-    SetEnvIf Origin "http(s)?://(shamsify.com|blog.shamsify.com)$" AccessControlAllowOrigin=$0
+    SetEnvIf Origin "http(s)?://(shamsi.dev|blog.shamsi.dev)$" AccessControlAllowOrigin=$0
     Header set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
 </IfModule>
