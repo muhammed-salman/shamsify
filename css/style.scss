@@ -299,14 +299,14 @@ footer {
     font-size: 1rem;
 }
 
-#about, #why-me, .my-image, #my-video,.contact-form--left,.contact-form--right {
+#about, #why-me, #my-training, .my-image, #my-video,.contact-form--left,.contact-form--right {
     @include float-left;
     width: 50%;
     margin: 0 auto;
     padding: 1rem;
 }
 
-#why-me {
+#why-me, #my-training{
     text-align: center;
 }
 
@@ -331,9 +331,14 @@ footer {
 .portfolios-item-wrapper {
     margin: 1rem;
     width: 47%;
+    max-width: 647px;
     position: relative;
     float: left;
     display: inline-block;
+    img {
+        filter: grayscale(100%);
+        border: 1px solid black;
+    }
 }
 
 .portfolios-img--medium {
@@ -554,6 +559,7 @@ h3 {
         margin-top: 3rem;
         ul{
             li{
+                    word-break: break-all;
                     font-size: 1.3rem;
                     margin-bottom: 1rem;
                     a{

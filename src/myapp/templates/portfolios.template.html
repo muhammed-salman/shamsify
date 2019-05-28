@@ -2,7 +2,8 @@
 	<h1 class="text-center">Portfolios</h1>
 	
 	<div class="portfolios" ng-repeat="work in pCtrl.works.work | orderBy:'-endDate'">
-		<h2 id="{{work.name}}">{{work.name}} <small>({{work.endDate | date:'MMM, yyyy'}})</small></h2>
+		<h2 id="{{work.name}}">{{work.name}}</h2>
+		<!-- small>({{work.endDate | date:'MMM, yyyy'}})</small -->
 		<div><b>Description:</b> <i>{{work.summary}}</i></div>
 		<div><b>Technology:</b> <i>{{work.technology}}</i></div>
 		<figure ng-repeat="shot in work.shots">

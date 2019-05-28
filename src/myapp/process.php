@@ -61,7 +61,7 @@ if (!empty($errors)) {
 } else {
   $emailto = 'talktoshamsi@gmail.com';
   $toname = 'Muhammed Salman Shamsi';
-  $emailfrom = 'muhammedsalman@shamsify.com';
+  $emailfrom = 'muhammedsalman@shamsi.dev';
   $fromname = $firstName.' '.$lastName;
   $params = '-f ' . $emailfrom;
   // $from="muhammedsalman@shamsify.com";
@@ -88,7 +88,7 @@ if (!empty($errors)) {
   }
   else{
     $data['success'] = false;
-    $data['message'] = "Oops! We are currently unable to send your message! Please mail directly to talktoshamsi@gmail.com.\nSorry for the inconvinence. We will fix the problem ASAP.";
+    $data['message'] = "Oops! We are currently unable to send your message! Please mail directly to muhammedsalman@shamsi.dev.\nSorry for the inconvinence. We will fix the problem ASAP.";
   }
   
 }

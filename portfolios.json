@@ -6,7 +6,7 @@
       "summary": "An opthalmology patient management system",
       "technology": "HTML5, CSS3, JAVASCRIPT, JQUERY, REACT, REDUX, MONGODB (MONGOOSE), BOOTSTRAP, SASS, EXPRESS, NODEJS",
       "endDate": "2019-03-09",
-      "client":"Dr. Shahid Ansari",
+      "client":"Mumbra Eye Care",
       "shots":[
         {
           "url":"img/Opms/consultation.png",

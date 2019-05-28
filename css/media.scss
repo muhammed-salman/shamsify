@@ -21,7 +21,7 @@
     .container__featured-image__content > * {
         margin-bottom: 0.5rem;
     }
-    #about, #why-me, .my-image, #my-video,.contact-form--left,.contact-form--right {
+    #about, #why-me, #my-training, .my-image, #my-video,.contact-form--left,.contact-form--right {
         display: block;
         width: 100%;
         margin: 0 auto;
@@ -223,7 +223,7 @@
         height:200px;
         margin-top: 6.5rem;
     }
-    #about, #why-me, .my-image, #my-video,.contact-form--left,.contact-form--right {
+    #about, #why-me, #my-training, .my-image, #my-video,.contact-form--left,.contact-form--right {
         display: block;
         width: 100%;
         margin: 0 auto;
@@ -241,6 +241,9 @@
     .portfolios-item-wrapper {
         margin: 0rem;
         width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;
         margin-bottom:1rem;
     }
     .portfolios-img--medium {

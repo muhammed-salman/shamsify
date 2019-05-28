@@ -9,8 +9,8 @@ gulp.task('serve', ['css'], function() {
 
     browserSync.init({
         open: 'external',
-        host: 'muhammed.local',
-        proxy: 'muhammed.local/shamsify'
+        host: 'muhammed.test',
+        proxy: 'muhammed.test/shamsify'
     });
 
     gulp.watch("css/*.css", ['css']);

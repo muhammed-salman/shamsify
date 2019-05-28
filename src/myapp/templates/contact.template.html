@@ -3,37 +3,41 @@
 		<div class="contact-form--left">
 			<div class="messages" ng-show="cCtrl.message">{{cCtrl.message}}</div>
 			<form name="contact-form" ng-submit="cCtrl.processData()" ng-show="cCtrl.formShow">
+				<div>
+				Currently we are on a static site. Hence this section is temporarily disabled. You can send me a mail directly at 
+				<a href="mailto:contact@shamsi.dev">contact@shamsi.dev</a>
+				</div>
 				<fieldset>
 					<legend>Name <span class="required">*</span></legend>
 					<div class="desc clear full-width">May I know your name</div>
 					<div>
-						<input type="text" name="firstName" ng-model="cCtrl.formData.firstName"  ng-class="{ 'has-error' : cCtrl.errorFirstName }"/>
+						<input type="text" name="firstName" ng-model="cCtrl.formData.firstName"  ng-class="{ 'has-error' : cCtrl.errorFirstName }" disabled="disabled" />
 						<div class="desc clear full-width">First name</div>
 						<div class="help full-width">{{cCtrl.errorFirstName}}</div>
 					</div>
 					<div>
-						<input type="text" name="lastName" ng-model="cCtrl.formData.lastName"  ng-class="{ 'has-error' : cCtrl.errorLastName }"/>
+						<input type="text" name="lastName" ng-model="cCtrl.formData.lastName"  ng-class="{ 'has-error' : cCtrl.errorLastName }" disabled="disabled"/>
 						<div class="desc clear full-width">Last name</div>
 						<div class="help full-width">{{cCtrl.errorLastName}}</div>
 					</div>
 				</fieldset>
 				<fieldset>
 					<legend>Email <span class="required">*</span></legend>
-					<input type="email" name="email" ng-model="cCtrl.formData.email"  ng-class="{ 'has-error' : cCtrl.errorEmail }"/>
+					<input type="email" name="email" ng-model="cCtrl.formData.email"  ng-class="{ 'has-error' : cCtrl.errorEmail }" disabled="disabled"/>
 					<div class="help full-width">{{cCtrl.errorEmail}}</div>
 				</fieldset>	
 				<fieldset>
 					<legend>Subject <span class="required">*</span></legend>
-					<input type="text" name="subject" ng-model="cCtrl.formData.subject"  ng-class="{ 'has-error' : cCtrl.errorSubject }"/>
+					<input type="text" name="subject" ng-model="cCtrl.formData.subject"  ng-class="{ 'has-error' : cCtrl.errorSubject }" disabled="disabled"/>
 					<div class="help full-width">{{cCtrl.errorSubject}}</div>
 				</fieldset>	
 				<fieldset>
 					<legend>Message <span class="required">*</span></legend>
 					<div class="desc clear full-width">Send me something right into my inbox. If you have any project or training related question, please describe in detail.</div>
-					<textarea name="message" ng-model="cCtrl.formData.message"  ng-class="{ 'has-error' : cCtrl.errorMessage }"></textarea>
+					<textarea name="message" ng-model="cCtrl.formData.message"  ng-class="{ 'has-error' : cCtrl.errorMessage }" disabled="disabled"></textarea>
 					<div class="help full-width">{{cCtrl.errorMessage}}</div>
 				</fieldset>
-				<button type="submit" id="contact_submit" class="bttn bttn--blackborder">Submit</button>		
+				<button type="submit" id="contact_submit" class="bttn bttn--blackborder" disabled="disabled">Submit</button>		
 			</form>
 		</div>
 		<div class="contact-form--right">
@@ -46,9 +50,10 @@
 			<div class="contact_social">
 				<h3>Get Connected</h3>
 				<ul class="no-bullets">
-					<li><i class="fa fa-envelope-square"></i>
-					 	<a href="mailto:talktoshamsi@gmail.com">
-					 		talktoshamsi@gmail.com
+					<li>
+						<i class="fa fa-envelope-square"></i>
+						<a href="mailto:muhammedsalman@shamsi.dev">
+					 		muhammedsalman@shamsi.dev
 					 	</a>
 					 </li>
 					<li>
