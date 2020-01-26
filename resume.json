@@ -15,11 +15,25 @@
   },
   "work": [
     {
+      "company": "Tata Institue of Social Sciences",
+      "position": "Sr. Software Developer",
+      "startDate": "2019-10-07",
+      "summary": "Currently working on Apps based on Django, Python, Postgres & JS stack",
+      "endDate": null
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Freelance Fullstack Developer",
+      "startDate": "2017-01-01",
+      "summary": "I have strong knowledge of Programming and Database. \n\nI had taken courses such as C Programming (SPA),  Web Programming (WTL), Database Management System (DBMS), Database & Information Retrieval System (DBIRS) and Distributed Databases (DD).\n\nDeveloped various web applications for automating the daily administrative and academic task. \n\nDeveloped a surveying web application for the department of civil engineering. \n\nOrganized \"One Week HTML & CSS Workshop\", MongoDB Workshop.",
+      "endDate": "2019-10-06"
+    },
+    {
       "company": "Anjuman-I-Islam's Kalsekar Technical Campus (AIKTC)",
       "position": "Assistant Professor",
       "startDate": "2014-07-01",
       "summary": "I have strong knowledge of Programming and Database. \n\nI had taken courses such as C Programming (SPA),  Web Programming (WTL), Database Management System (DBMS), Database & Information Retrieval System (DBIRS) and Distributed Databases (DD).\n\nDeveloped various web applications for automating the daily administrative and academic task. \n\nDeveloped a surveying web application for the department of civil engineering. \n\nOrganized \"One Week HTML & CSS Workshop\", MongoDB Workshop.",
-      "endDate": null
+      "endDate": "2019-10-06"
     },
     {
       "company": "Abdul Razzak Kalsekar Polytechnic",
@@ -35,14 +49,14 @@
       "position": "Web Developer",
       "startDate": "2014-06-01",
       "summary": "I have developed a couple of applications for different departments of the organization at no cost. It includes a modified version of my pet project E-Academs also known as ProjectILM and a project called as UrbanMumbra which is actively used for community benefits.",
-      "endDate": null
+      "endDate": "2016-12-01"
     },
     {
       "company": "AIKTC Programmers' Club",
       "position": "Mentor",
       "startDate": "2016-07-01",
       "summary": "Programmer's Club is a platform for aspiring programmers to harness their skills. Being a mentor my task is to coach and guide these aspiring programmers to master their programming skills. Beside these I also co-organized various workshops,lecture and code together sessions for students.\n-• Delivered Three Days ‘JavaScript and Node.js Workshop’ as a speaker.\n- Organized and Delivered One Week 'HTML & CSS and Java Workshop' as a speaker.\n- Co-organized Algorithm 1.0, Algorithm 2.0, and Algorithm 3.0 an inter-collegiate technical competion. I specifically dealed with technical support,financial expenditure and audit.",
-      "endDate": null
+      "endDate": "2019-10-06"
     }
   ],
   "education": [
@@ -230,6 +244,11 @@
           "name": "Django",
           "level": "Intermediate",
           "ratings": "5"
+        },
+        {
+          "name": "Postgres",
+          "level": "Intermediate",
+          "ratings": "6"
         }
       ],
       "os": [
@@ -456,6 +475,11 @@
           "name": "Corel Photopaint",
           "level": "Entry",
           "ratings": "5"
+        },
+        {
+          "name": "Docker",
+          "level": "Intermediate",
+          "ratings": "5"
         }
       ]
   },
@@ -602,6 +626,14 @@
       "expiry":"NA",
       "institute": "Udemy",
       "certificateNo":"UC-YVC9LEBY",
+      "grade":"NA"
+    },
+    {
+      "title": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+      "date": "2020-01-11",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-03AGWIYG",
       "grade":"NA"
     }
   ],
