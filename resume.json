@@ -4,7 +4,7 @@
     "name": "Muhammed Salman Shamsi",
     "currentPost": "Assistant Professor | Freelance Developer",
     "phone": "Please Mail Me",
-    "summary": "- A passionate developer & teacher consistently recognized by my peers and mentors for troubleshooting skills and effectively resolving challenging issues.\n- 2.5+ years of volunteer hands-on experience in the field of web development.\n- 4.5+ years of experience in teaching database and web technologies.\n- Quickly learn and master new technology; equally successful in both team and self-directed settings; and proficient in a range of computer systems, languages and tools.\n- Completed 11 MOOC’s on Coursera, 8 on Udemy, 5 on LinkedIn Learning which proves me a constantly motivated learner possessing in demand technical skills.\n- 3k+ Stack Overflow reputation and 35+ github repository which demonstrate my contribution to open source community.\n- Unique ability to work independently and still keep my heads and other stakeholders informed.\n- Skilled at explaining complex concept easily to any novice person.\n- In spite of sophistication of your web application technologies and expertise of your developers, I'll be a precious asset to your organization.",
+    "summary": "- A passionate developer & teacher consistently recognized by my peers and mentors for troubleshooting skills and effectively resolving challenging issues.\n- 1+ years of experience as a Sr. Software Developer, leading a team of 3 members at TISS, responsible for developing & maintaining web apps based on Python, Django, Postgres & JS stack.\n- 2.5+ years of volunteer hands-on & freelance experience in the field of web development.\n- 5.5+ years of experience in teaching database and web technologies.\n- Good interpersonal and communication skills which makes me skilled at explaining complex concept easily to any novice person.\n- Completed 11 MOOC’s on Coursera, 12 on Udemy, 5 on LinkedIn Learning which proves me a constantly motivated learner possessing in demand technical skills.\n- 4k+ Stack Overflow reputation and 35+ github repository which demonstrate my contribution to open source community.\n- Unique ability to work independently and still keep my heads and other stakeholders informed.",
     "location": {
       "city": "Thane",
       "region": "Mumbai MetroPolitan Region(MMR)",
@@ -15,11 +15,18 @@
   },
   "work": [
     {
+      "company": "HowNow",
+      "position": "Frontend Developer",
+      "startDate": "2020-12-02",
+      "summary": "Currently working on Ruby on Rails, React etc",
+      "endDate": null
+    },
+    {
       "company": "Tata Institue of Social Sciences",
       "position": "Sr. Software Developer",
       "startDate": "2019-10-07",
-      "summary": "Currently working on Apps based on Django, Python, Postgres & JS stack",
-      "endDate": null
+      "summary": "Lead a team of 3 developers. Handled user authentication by using LDAP which enables auto sync of users from LDAP user directory. Performed successful migration of SM System from Python 2.7, Django 1.11 to Python 3.6.8 Django 2.2. Responsibility mainly include studying use case, requirement gathering, co-ordination, development, code review, debugging &amp; troubleshooting during software development life cycle.",
+      "endDate": "2020-11-30"
     },
     {
       "company": "Self-Employed",
@@ -249,6 +256,11 @@
           "name": "Postgres",
           "level": "Intermediate",
           "ratings": "6"
+        },
+        {
+          "name": "Go",
+          "level": "Beginner",
+          "ratings": "4"
         }
       ],
       "os": [
@@ -480,6 +492,11 @@
           "name": "Docker",
           "level": "Intermediate",
           "ratings": "5"
+        },
+        {
+          "name": "Tableau",
+          "level": "Beginner",
+          "ratings": "5"
         }
       ]
   },
@@ -634,6 +651,30 @@
       "expiry":"NA",
       "institute": "Udemy",
       "certificateNo":"UC-03AGWIYG",
+      "grade":"NA"
+    },
+    {
+      "title": "Tableau 10 A-Z: Hands-On Tableau Training For Data Science!",
+      "date": "2020-04-05",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-54ee8e8f-44ec-4430-9b7f-74615cc19018",
+      "grade":"NA"
+    },
+    {
+      "title": "Go: The Complete Developer's Guide (Golang)",
+      "date": "2020-08-04",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-70ff62d1-62f6-411e-9413-cc44030492c1",
+      "grade":"NA"
+    },
+    {
+      "title": "Node JS: Advanced Concepts",
+      "date": "2020-08-15",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-43a542b0-aad6-4fda-8ab5-02a1c065a6a0",
       "grade":"NA"
     }
   ],
